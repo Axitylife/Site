@@ -1,69 +1,218 @@
+/*Common start*/
+/*Add Font*/
+@font-face {
+  font-family:"Martel Sans Bold";
+  src: url(../fonts/MartelSans-Bold.ttf);
+}
+@font-face {
+  font-family:"Poppins Light";
+  src: url(../fonts/Poppins-ExtraLight.ttf);
+}
+@font-face {
+  font-family:"Martel Sans Regular";
+  src: url(../fonts/MartelSans-Regular.ttf);
+}
 .sizeWindow
 {
     max-width: 1440px;
     margin: auto;
-    border: wheat, solid, 2px;
+   
 }
+.sizeContent
+{
+  max-width: 1256px;
+  margin: auto;
+}
+ul
+{
+  list-style-type: none;
+}
+h1
+{
+  margin: 0;
+  padding: 0;
+}
+p
+{
+  margin: 0;
+  padding: 0;
+}
+/*CommonEnd*/
 
+/*Header start*/
 .navigationSite 
 {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 	border: none;
 	border-bottom: 4px solid #9093A6;
-    font-family:Marterl ;
+  font-family: Martel Sans Bold;
+  color: #9093A6;
 }
 .list 
 {
     list-style: none;
     display: flex;
 }
-.leftList
+.listElementNavigationMenu
 {
-    margin-left: 92px;
+  margin-right: 48px;
 }
+/*Header end*/
+
+
+/*First Section start. (ShowCase) */
+.mainText
+{
+  font-family:  Poppins Light;
+  font-size: 58px;
+  margin: 0;
+  padding: 0;
+}
+.maininfoText
+{
+  margin-top:120px ;
+}
+.mainTextinButton
+{
+  font-family: Martel Sans Bold;
+  font-size: 16px;
+}
+.otherTextInButton
+{
+  font-family: Martel Sans Regular;
+  font-size: 12px;
+}
+.informationWindow
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.previuImage
+{
+  max-width: 648px;
+  max-height: 648px;
+}
+.variableGetEat
+{
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 259px;
+}
+.showVariabgle
+{
+  border: solid, 2px, #FFE145;
+  border-radius: 5px;
+  width: 118px;
+  height: 72px;
+  text-align: center;
+  background-color: white; 
+  font-family: Martel Sans Bold;
+  letter-spacing: 0.5px;
+  
+}
+.componentsList
+{
+  list-style-type: none;
+  display: flex;
+  box-shadow: 3px 3px 3px  #00000014;
+  max-width: 872px;
+  height: 104px;
+  align-items: center;
+}
+.componentsListElement
+{
+  max-width: 256px;
+}
+.test
+{
+  justify-content: space-between;
+  display: flex;
+  text-align: left;
+  font-size: 16px;
+}
+/*First Section end*/
+
+/*Second Section start*/
+.headerSectionRestaurants
+{
+  justify-content: space-between;
+  display: flex;
+  letter-spacing: 8%;
+  font-family:Poppins Light;
+  font-size: 36px;
+  margin-top:48px ;
+  
+}
+.sliderMenuList
+{
+  display: flex;
+  margin-top: 48px;
+  
+}
+.sliderlistMenuElement
+{
+  box-shadow: 3px 3px 3px  #00000014;
+  margin-right: 24px;
+}
+.buttonShowAll
+{
+  background-color: #F2F4FA;
+  border: none;
+  width:118px ;
+  height: 48px;
+  color: #9093A6;
+  border-radius: 5px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+
+}
+/*BurgerMenu Start*/
 .burger-checkbox {
-    position: absolute;
-    visibility: hidden;
-  }
-  .burger {
-    cursor: pointer;
-    display: block;
-    position: relative;
-    border: none;
-    background: transparent;
-    width: 24px;
-    height: 24px;
-    margin: 0;
-  }
-  .burger::before,
-  .burger::after {
-    content: '';
-    left: 0;
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 4px;
-    border-radius: 10px;
-    background: #9093A6;
-  }
-  .burger::before {
-    top: 0;
-    box-shadow: 0 11px 0 #9093A6;
-    transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
-  }
-  .burger::after {
-    bottom: 0;
-    transition: bottom .3s .15s, transform .3s;
-  }
-  .burger-checkbox:checked + .burger::before {
-    top: 11px;
-    transform: rotate(45deg);
-    box-shadow: 0 6px 0 rgba(0,0,0,0);
-    transition: box-shadow .15s, top .3s, transform .3s .15s;
-  }
-  .burger-checkbox:checked + .burger::after {
-    bottom: 11px;
-    transform: rotate(-45deg);
-    transition: bottom .3s, transform .3s .15s;
-  }
+  position: absolute;
+  visibility: hidden;
+}
+.burger {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: none;
+  background: transparent;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+.burger::before,
+.burger::after {
+  content: '';
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 10px;
+  background: #9093A6;
+}
+.burger::before {
+  top: 0;
+  box-shadow: 0 11px 0 #9093A6;
+  transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+}
+.burger::after {
+  bottom: 0;
+  transition: bottom .3s .15s, transform .3s;
+}
+.burger-checkbox:checked + .burger::before {
+  top: 11px;
+  transform: rotate(45deg);
+  box-shadow: 0 6px 0 rgba(0,0,0,0);
+  transition: box-shadow .15s, top .3s, transform .3s .15s;
+}
+.burger-checkbox:checked + .burger::after {
+  bottom: 11px;
+  transform: rotate(-45deg);
+  transition: bottom .3s, transform .3s .15s;
+}
+/*MenuBurger End*/
