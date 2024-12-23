@@ -1,17 +1,77 @@
 /*Common start*/
 /*Add Font*/
-@font-face {
-  font-family:"Martel Sans Bold";
-  src: url(../fonts/MartelSans-Bold.ttf);
+@font-face 
+{
+  font-family:"MartleSans300";
+  font-style: normal;
+  font-weight: 300; 
+  src: url(../fonts/MartelSans-Light.ttf);
 }
-@font-face {
-  font-family:"Poppins Light";
-  src: url(../fonts/Poppins-ExtraLight.ttf);
-}
-@font-face {
-  font-family:"Martel Sans Regular";
+@font-face
+{
+  font-family:"MartleSans400";
+  font-style: normal;
+  font-weight: 400; 
   src: url(../fonts/MartelSans-Regular.ttf);
 }
+@font-face 
+{
+  font-family:"MartelSans700";
+  font-weight: 700; 
+  src: url(../fonts/MartelSans-Bold.ttf);
+}
+@font-face 
+{ 
+  font-family:"MartleSans800";
+  font-weight: 800; 
+  src: url(../fonts/MartelSans-ExtraBold.ttf);
+}
+@font-face 
+{
+  font-family:"Poppins300";
+  font-weight: 300;
+  src: url(../fonts/Poppins-Light.ttf); 
+}
+@font-face 
+{
+  font-family:"Poppins600";
+  font-weight: 600; 
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+
+.commonFontPoppins300
+{
+  font-family:"Poppins300";
+  font-weight: 300;
+}
+.commonFontPoppins600
+{
+  font-family: "Poppins600";
+  font-weight: 600;
+}
+.commonFontMartelSans300
+{
+  font-family: "MartleSans300";
+  font-weight: 300;
+}
+.commonFontMartelSans400
+{
+  font-family: "MartleSans400";
+  font-weight: 400;
+}
+.commonFontMartelSans700
+{
+  font-family: "MartelSans700";
+  font-weight: 700;
+}
+.commonFontMartelSans800
+{
+  font-family: "MartleSans800";
+  font-weight: 800;
+  font-size: 12px;
+}
+
+
 .sizeWindow
 {
     max-width: 1440px;
@@ -23,9 +83,11 @@
   max-width: 1256px;
   margin: auto;
 }
-ul
+ul, li
 {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 h1
 {
@@ -37,20 +99,30 @@ p
   margin: 0;
   padding: 0;
 }
+.commonTitles
+{
+  font-size: 36px;
+  letter-spacing: 5px;
+  line-height: 64px;
+  
+}
 /*CommonEnd*/
 
 /*Header start*/
+.borderHead
+{
+  border: none;
+	border-bottom: 1px solid #9093A6;
+  color: #9093A6;
+}
 .navigationSite 
 {
   display: flex;
   justify-content: space-between;
-	border: none;
-	border-bottom: 4px solid #9093A6;
-  font-family: Martel Sans Bold;
-  color: #9093A6;
 }
-.list 
+.listNavigation 
 {
+    margin-top: 24px;
     list-style: none;
     display: flex;
 }
@@ -58,16 +130,31 @@ p
 {
   margin-right: 48px;
 }
+.listElementNavigationMenu:last-child
+{
+  margin-right: 0;
+}
+.imageLogoHeader
+{
+  margin-top: 24px;
+  margin-bottom: 23px;
+}
 /*Header end*/
 
 
 /*First Section start. (ShowCase) */
+.imagesPreviuse
+{
+  display: flex;
+}
 .mainText
 {
-  font-family:  Poppins Light;
+  color: #3F4255;
+  line-height: 68px;
   font-size: 58px;
-  margin: 0;
-  padding: 0;
+  letter-spacing: 5px;
+  max-width: 534px;
+  height: 128px;
 }
 .maininfoText
 {
@@ -75,12 +162,10 @@ p
 }
 .mainTextinButton
 {
-  font-family: Martel Sans Bold;
   font-size: 16px;
 }
 .otherTextInButton
 {
-  font-family: Martel Sans Regular;
   font-size: 12px;
 }
 .informationWindow
@@ -93,10 +178,28 @@ p
 {
   max-width: 648px;
   max-height: 648px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.rucolaPos
+{
+  position: relative;
+  max-width: 122px;
+  max-height: 166px;
+  top: 380px;
+  left: 50px;
+}
+.arrow
+{
+  width: 64px;
+  height: 16px;
+  position: relative;
+  top: 100px;
 }
 .variableGetEat
 {
-  margin-top: 48px;
+  margin-top: 88px;
   display: flex;
   justify-content: space-between;
   max-width: 259px;
@@ -109,39 +212,59 @@ p
   height: 72px;
   text-align: center;
   background-color: white; 
-  font-family: Martel Sans Bold;
   letter-spacing: 0.5px;
   
 }
+.components
+{
+  justify-content: left;
+  width: 1440px;
+  height: 104px;
+}
+
 .componentsList
 {
-  list-style-type: none;
+  box-shadow: 2px 2px 100px 0px rgba(34, 60, 80, 0.2);
   display: flex;
-  box-shadow: 3px 3px 3px  #00000014;
-  max-width: 872px;
-  height: 104px;
-  align-items: center;
+  width: 872px;
+  
+  padding-left: 92px;
+  
 }
 .componentsListElement
 {
-  max-width: 256px;
+ 
+  max-width: 246px;
+  margin-right: 50px;
+  font-size: 24px;
+  margin-top: 24px;
 }
-.test
+.textDilivery
 {
-  justify-content: space-between;
+  max-width: 100%;
+}
+.imageData
+{ 
   display: flex;
   text-align: left;
   font-size: 16px;
+  line-height: 24px;
+}
+.imageRucola
+{
+  position: relative;
+  rotate: 31.5%;
+  top: -500px;
 }
 /*First Section end*/
 
 /*Second Section start*/
 .headerSectionRestaurants
 {
+  margin-top: 72px;
   justify-content: space-between;
   display: flex;
   letter-spacing: 8%;
-  font-family:Poppins Light;
   font-size: 36px;
   margin-top:48px ;
   
@@ -150,11 +273,18 @@ p
 {
   display: flex;
   margin-top: 48px;
+  padding: 0;
   
+}
+.imgLogoType
+{
+  margin-right:16px;
+  max-width: 48px;
+  max-height: 48px;
 }
 .sliderlistMenuElement
 {
-  box-shadow: 3px 3px 3px  #00000014;
+  box-shadow: 4px 4px 100px 0px rgba(34, 60, 80, 0.2);
   margin-right: 24px;
 }
 .buttonShowAll
@@ -169,6 +299,317 @@ p
   letter-spacing: 0.5px;
 
 }
+/*Second Section end*/
+
+
+/*Third Section start*/
+.sectionFindRestaurane
+{
+  margin-top: 72px;
+  background-color: #F2F4FA;
+  height: 297px;
+  width: 100%;
+}
+.findRestauranFlex
+{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.titleAndDiscriptionBorder
+{
+  color:#3F4255;
+}
+.titleFindRestauran
+{
+  margin-top: 80px;
+  margin-right: 159px;
+}
+.descriptionFindRestauran
+{
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  margin-top: 24px;
+  width: 424.17px;
+  line-height: 24px;
+}
+.inputFindAdress
+{
+  margin-top: 113px;
+  margin-right: 0;
+}
+.inputWindowFindAdress
+{
+  width: 336px;
+  height: 72px;
+  box-shadow: 4px 4px 100px 0px rgba(34, 60, 80, 0.2);
+  border: none;
+
+}
+
+.sendButtonFindAdress
+{
+  width: 88px;
+  height: 72px;
+  background-color: #FFE145;
+  border: none;
+  border-radius: 5px;
+  color:#B79C10;
+}
+/*Third Section start*/
+
+
+/*Four Section start*/
+.listSpecialitlies
+{
+  margin-top: 48px;
+  display: flex;
+}
+
+.elementSpecialitlesList
+{
+  width: 136px;
+  height: 136px;
+  min-width: 136px;
+  min-height: 136px;
+  box-shadow: 4px 4px 100px 0px rgba(34, 60, 80, 0.2);
+  margin-right: 24px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+}
+.imgSpecialitlies
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-left: 0 auto;
+}
+.textSpecialitles
+{
+  margin-top: 10px;
+}
+.elementSpecialitlesList:last-child
+{
+ 
+  margin-right: 0px;
+}
+/*Four Section end*/
+
+
+
+/*Five Section start*/
+.sectionDataRest
+{
+  background: url(../images/bgLime.png);
+  width: 1440px;
+  height: 284px;
+  margin-top: 72px;
+}
+.circlesList
+{
+  display: flex;
+  padding-top: 56px;
+  justify-content:center;
+  align-items: center;
+}
+
+.sphere::before
+{
+  width: 136px;
+  height: 136px;
+  min-width: 136px;
+  min-height: 136px;
+  margin-right: 24px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  border-radius: 50%;
+  background-color: white;
+
+  border: solid red 1px;
+}
+
+/*Six Section start*/
+.showMap
+{
+  margin-top: 72px;
+  width: 1440px;
+}
+.imgMap
+{
+  width: 1280px;
+  height: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.sphere
+{
+ 
+}
+.backgroundCircles
+{
+  background: url(../images/iCircle.png);
+  
+}
+.descriptionCircle
+{
+  font-size: 24px;
+  line-height: 32px;
+}
+/*Six Section End*/
+
+
+/*Seven Section start*/
+.sectionInstagramm
+{
+  margin-top: 72px;
+}
+.instagramPhotoList
+{
+  padding: 0;
+  margin-top: 21px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 1280px;
+}
+.elemenInstagrammList
+{
+  margin-right: 24px;
+}
+.elemenInstagrammList:last-child
+{
+  margin-right: 0px;
+}
+.titleInstagramm
+{
+  color:#313030;
+}
+.othertextInsta
+{
+  color: gray;
+}
+/*Seven Section end*/
+
+/*Footer start*/
+.footerData
+{
+  background-color: #3F4255;
+  color: #FFFFFF;
+  height: 100%;
+  margin-top: 72px;
+}
+.whiteLogo
+{
+  padding-bottom: 48px;
+}
+.boderLogoBottom
+{
+  border: none;
+	border-bottom: 1px solid #9093A6;
+  color: #9093A6;
+}
+.boxFotter
+{
+  display: flex;
+  
+}
+.colomnInFooterData
+{
+  display: flex;
+  margin-top: 48px;
+  justify-items: end;
+}
+.colomnData
+{
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: #D4D7E5;
+  margin-bottom: 16px;
+  line-height: 20px;
+}
+.footerLast
+{
+  display: flex;
+  margin-top: 48px;
+  justify-content: space-between;
+  margin-bottom: 48px;
+  
+}
+.logoList
+{
+  display: flex;
+  margin-bottom: 48px;
+}
+.logoList:last-child
+{
+  margin-right: 0px;
+  
+}
+.elementLogoList
+{
+  width: 21.66px;
+  height: 21.66px;
+  margin-right: 25.17px;
+}
+.footerPrivacyList
+{
+  display: flex;
+}
+.elementPrivacyList
+{
+  margin-right: 25px;
+}
+.footerLogoWindow
+{
+  justify-content: space-between;
+  max-width: 296px;
+  margin-top: 48px;
+  margin-right: 184px;
+}
+.storesBorder
+{
+  max-width: 173.69;
+  max-height: 28.49px;
+  display: flex;
+  margin-right: 184px;
+}
+.storesIcon
+{
+  width: 100%;
+  height: 100%;
+  margin-top: 48px;
+}
+.firstElementColomnData
+{
+  font-size: 24px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+.elementPrivacyList:last-child
+{
+ font-size: 12px;
+}
+
+.colomnDataList
+{
+  line-height: 32px;
+}
+.underlineLogo
+{
+  border: none;
+	border-bottom: 1px solid #9093A6;
+  color: #9093A6;
+}
+
+
 /*BurgerMenu Start*/
 .burger-checkbox {
   position: absolute;
@@ -215,4 +656,5 @@ p
   transform: rotate(-45deg);
   transition: bottom .3s, transform .3s .15s;
 }
+
 /*MenuBurger End*/
