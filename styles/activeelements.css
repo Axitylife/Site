@@ -1,0 +1,53 @@
+.buttonShowAll
+{
+  background-color: #F2F4FA;
+  border: none;
+  width:118px ;
+  height: 48px;
+  color: #9093A6;
+  border-radius: 5px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  transition: color 0.5s ease-in-out,   background-color .5s ease-in-out;
+}
+.buttonShowAll:hover
+{
+  background-color: #D4D7E5;
+  color: #3F4255;
+}
+.buttonShowAll:active
+{
+  background-color: #D4D7E5;
+}
+
+.sendButtonFindAdress
+{
+  width: 88px;
+  height: 72px;
+  background-color: #FFE145;
+  border: none;
+  border-radius: 5px;
+  color:#B79C10;
+  position: relative;
+  transition: background-color 0.5s ease;
+}
+.sendButtonFindAdress:hover
+{
+  background-color: #FFF7CC;
+  
+}
+
+.circleSize
+{
+  position: relative;
+  width: 48px;
+  height: 48px;
+  background-color: white;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.08);
+  border-radius: 50%;
+  transition: box-shadow 0.5s ease;
+}
+.circleSize:hover
+{
+  box-shadow: 0px 4px 8px 10px rgba(34, 60, 80, 0.08);
+}

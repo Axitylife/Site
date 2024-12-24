@@ -1,112 +1,3 @@
-/*Common start*/
-/*Add Font*/
-@font-face 
-{
-  font-family:"MartleSans300";
-  font-style: normal;
-  font-weight: 300; 
-  src: url(../fonts/MartelSans-Light.ttf);
-}
-@font-face
-{
-  font-family:"MartleSans400";
-  font-style: normal;
-  font-weight: 400; 
-  src: url(../fonts/MartelSans-Regular.ttf);
-}
-@font-face 
-{
-  font-family:"MartelSans700";
-  font-weight: 700; 
-  src: url(../fonts/MartelSans-Bold.ttf);
-}
-@font-face 
-{ 
-  font-family:"MartleSans800";
-  font-weight: 800; 
-  src: url(../fonts/MartelSans-ExtraBold.ttf);
-}
-@font-face 
-{
-  font-family:"Poppins300";
-  font-weight: 300;
-  src: url(../fonts/Poppins-Light.ttf); 
-}
-@font-face 
-{
-  font-family:"Poppins600";
-  font-weight: 600; 
-  src: url(../fonts/Poppins-Bold.ttf);
-}
-
-.commonFontPoppins300
-{
-  font-family:"Poppins300";
-  font-weight: 300;
-}
-.commonFontPoppins600
-{
-  font-family: "Poppins600";
-  font-weight: 600;
-}
-.commonFontMartelSans300
-{
-  font-family: "MartleSans300";
-  font-weight: 300;
-}
-.commonFontMartelSans400
-{
-  font-family: "MartleSans400";
-  font-weight: 400;
-}
-.commonFontMartelSans700
-{
-  font-family: "MartelSans700";
-  font-weight: 700;
-}
-.commonFontMartelSans800
-{
-  font-family: "MartleSans800";
-  font-weight: 800;
-  font-size: 12px;
-}
-
-
-.sizeWindow
-{
-    max-width: 1500px;
-    margin: auto;
-   
-}
-.sizeContent
-{
-  max-width: 1256px;
-  margin: auto;
-}
-ul, li
-{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-h1
-{
-  margin: 0;
-  padding: 0;
-}
-p
-{
-  margin: 0;
-  padding: 0;
-}
-.commonTitles
-{
-  font-size: 36px;
-  letter-spacing: 5px;
-  line-height: 64px;
-  
-}
-/*CommonEnd*/
 
 /*Header start*/
 .borderHead
@@ -245,9 +136,9 @@ p
 }
 .boxDilivery
 {
-  box-shadow: 4px 4px 100px 0px rgba(34, 60, 80, 0.2);  
   display: flex;
   width: 872px;
+  height: 104px;
 }
 .sizeImageDilivery
 {
@@ -265,8 +156,10 @@ p
 .borderDiliveryElements
 {
   display: flex;
-  max-width: 246px;
+  max-height: 46px;
   padding-top: 28px;
+
+  white-space: nowrap
 }
 .borderDiliveryElements:first-child
 {
@@ -298,44 +191,46 @@ p
 .sliderMenuList
 {
   display: flex;
-  margin-top: 48px;
+  margin-top: 48px; 
   padding: 0;
   position: relative;
 }
 
 .sliderlistMenuElement
 {
-  box-shadow: 4px 4px 100px 0px rgba(34, 60, 80, 0.2);
   margin-right: 24px;
 }
 .arrowPlace
 {
   position: relative;
-  bottom: 220px;
+  bottom: 180px;
+  display: flex;
+}
+.arrowPlaceSpecialities
+{
+  position: relative;
+  bottom: 100px;
+  display: flex;
 }
 .backSliderMenu
 {
-  position: absolute;
-  transform: rotate(180deg); 
-  left:-65px;
-  top: -20px;
+  position: absolute; 
+  left: -25px;
 }
 .forwardSliderMenu
 {
   position: absolute;
-  left: 1193px
+  left: 1193px;
 }
-.buttonShowAll
+.rightArrowSpecialities
 {
-  background-color: #F2F4FA;
-  border: none;
-  width:118px ;
-  height: 48px;
-  color: #9093A6;
-  border-radius: 5px;
-  font-size: 20px;
-  letter-spacing: 0.5px;
-
+  position: relative;
+  left: 1230px;
+}
+.leftArrowSpecialities
+{
+  position: relative;
+  right: 70px;
 }
 /*Second Section end*/
 
@@ -380,24 +275,31 @@ p
 {
   width: 336px;
   height: 72px;
-  box-shadow: 4px 4px 100px 0px rgba(34, 60, 80, 0.2);
   border: none;
-
+  border-radius: 6px;
 }
 
-.sendButtonFindAdress
+
+.circleInButton
 {
-  width: 88px;
-  height: 72px;
-  background-color: #FFE145;
-  border: none;
-  border-radius: 5px;
-  color:#B79C10;
+  display: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  opacity: 0.4;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
 }
 /*Third Section start*/
 
 
 /*Four Section start*/
+.SpecialitiesSection
+{
+margin-top: 72px;
+}
 .listSpecialitlies
 {
   margin-top: 48px;
@@ -410,7 +312,6 @@ p
   height: 136px;
   min-width: 136px;
   min-height: 136px;
-  box-shadow: 4px 4px 100px 0px rgba(34, 60, 80, 0.2);
   margin-right: 24px;
   text-align: center;
   font-size: 16px;
@@ -437,7 +338,6 @@ p
 .arrowPlaceSpecialities
 {
   position: relative;
-  bottom:120px;
 }
 .backSliderSpecialities
 {
@@ -451,6 +351,36 @@ p
 {
   position: absolute;
   left:  1190px;
+}
+
+
+.imgArrow
+{
+  position: relative;
+  top:12px;
+  left:12px;
+}
+.rightArrow
+{
+  position: relative;
+  left: 1230px;
+}
+.leftArrow
+{
+  position: relative;
+  right: 65px; 
+}
+.imgArrowLeft
+{
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+.imgArrowRight
+{
+  position: relative;
+  top: 12px;
+  left: 12px;
 }
 /*Four Section end*/
 
@@ -470,25 +400,81 @@ p
   padding-top: 56px;
   justify-content:center;
   align-items: center;
+  position: relative;
 }
 
-.sphere::before
+
+.selecterNumber
 {
-  width: 136px;
-  height: 136px;
-  min-width: 136px;
-  min-height: 136px;
-  margin-right: 24px;
+  font-size: 58px;
+  letter-spacing: 5%;
+  line-height: 64px;
   text-align: center;
-  font-size: 16px;
-  letter-spacing: 0.5px;
-  line-height: 24px;
+  color: #3F4255;
+  position: relative;
+  top: 110px;
+  right: 5px;
+  text-align: center;
+}
+.dicriptionVariable
+{
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+  margin-top: 2px;
+}
+.borderSphere
+{
+  width: 127px;
+  height: 127px;
   border-radius: 50%;
-  background-color: white;
-
-  border: solid red 1px;
+  background: #FFE145;
+  margin-right: 39px;
+  margin-left: 40px;
+  position: relative;
+  color: #3F4255;
+}
+.borderSphere::before
+{
+  content: '';
+  position: absolute; 
+  display: block;
+  bottom: 22px;
+  width: 127px;
+  height: 127px;
+  border-radius: 50%;
+  border: solid 1px #B79C10;
+}
+.numberPositionInSphere
+{
+  position: relative;
+  top: 15px;
+  left:0px;
+  font-size: 58px;
+  line-height: 64px;
+  letter-spacing: 5%;
+  text-align: center;
 }
 
+.sizeBoxSphere
+{
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  text-align: center;
+}
+.textSphere
+{
+  margin-top: 65px;
+  font-size:24px;
+  width: 225px;
+  line-height: 32px;
+  text-wrap: nowrap;
+  text-align: center;
+  position: relative;
+  left: -51px;
+
+}
 /*Six Section start*/
 .showMap
 {
@@ -504,10 +490,8 @@ p
   margin-right: auto;
   
 }
-.sphere
-{
- 
-}
+
+
 .backgroundCircles
 {
   background: url(../images/iCircle.png);
@@ -518,7 +502,12 @@ p
   font-size: 24px;
   line-height: 32px;
 }
+
 /*Six Section End*/
+ 
+
+
+
 
 
 /*Seven Section start*/
@@ -575,13 +564,17 @@ p
 .boxFotter
 {
   display: flex;
+  justify-content: space-between;
   
 }
 .colomnInFooterData
 {
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   margin-top: 48px;
-  justify-items: end;
+  position: relative;
+  left: 25px;
 }
 .colomnData
 {
@@ -590,6 +583,13 @@ p
   color: #D4D7E5;
   margin-bottom: 16px;
   line-height: 20px;
+}
+.otherSettingsColomnData
+{
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  margin-bottom: 16px;
 }
 .footerLast
 {
@@ -629,6 +629,7 @@ p
   max-width: 296px;
   margin-top: 48px;
   margin-right: 184px;
+  position: relative;
 }
 .storesBorder
 {
@@ -639,9 +640,15 @@ p
 }
 .storesIcon
 {
-  width: 100%;
-  height: 100%;
+  max-width: 173.69px;
+  width: 78px;
+  height: 28.5px;
   margin-top: 48px;
+
+}
+.storesIcon:last-child-child
+{
+  margin-right: 8.50p;
 }
 .firstElementColomnData
 {
@@ -657,6 +664,7 @@ p
 .colomnDataList
 {
   line-height: 32px;
+
 }
 .underlineLogo
 {

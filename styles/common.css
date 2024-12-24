@@ -1,0 +1,126 @@
+/*Common start*/
+/*Add Font*/
+@font-face 
+{
+  font-family:"MartleSans300";
+  font-style: normal;
+  font-weight: 300; 
+  src: url(../fonts/MartelSans-Light.ttf);
+}
+@font-face 
+{
+  font-family:"OpenSansCondensed";
+  font-style: normal;
+  font-weight: 700; 
+  src: url(../fonts/OpenSansCondensed-Bold.ttf);
+}
+@font-face
+{
+  font-family:"MartleSans400";
+  font-style: normal;
+  font-weight: 400; 
+  src: url(../fonts/MartelSans-Regular.ttf);
+}
+@font-face 
+{
+  font-family:"MartelSans700";
+  font-weight: 700; 
+  src: url(../fonts/MartelSans-Bold.ttf);
+}
+@font-face 
+{ 
+  font-family:"MartleSans800";
+  font-weight: 800; 
+  src: url(../fonts/MartelSans-ExtraBold.ttf);
+}
+@font-face 
+{
+  font-family:"Poppins300";
+  font-weight: 300;
+  src: url(../fonts/Poppins-Light.ttf); 
+}
+@font-face 
+{
+  font-family:"Poppins600";
+  font-weight: 600; 
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+.commonOpenSansCondensed
+{
+  font-family:"OpenSansCondensed";
+  font-weight: 700;
+}
+.commonFontPoppins300
+{
+  font-family:"Poppins300";
+  font-weight: 300;
+}
+.commonFontPoppins600
+{
+  font-family: "Poppins600";
+  font-weight: 600;
+}
+.commonFontMartelSans300
+{
+  font-family: "MartleSans300";
+  font-weight: 300;
+}
+.commonFontMartelSans400
+{
+  font-family: "MartleSans400";
+  font-weight: 400;
+}
+.commonFontMartelSans700
+{
+  font-family: "MartelSans700";
+  font-weight: 700;
+}
+.commonFontMartelSans800
+{
+  font-family: "MartleSans800";
+  font-weight: 800;
+  font-size: 12px;
+}
+
+body
+{
+    background-color: black;
+}
+.sizeWindow
+{
+    max-width: 1440px;
+    margin: auto;
+    background-color: white;
+}
+.sizeContent
+{
+  max-width: 1256px;
+  margin: auto;
+}
+ul, li
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+h1
+{
+  margin: 0;
+  padding: 0;
+}
+p
+{
+  margin: 0;
+  padding: 0;
+}
+.commonTitles
+{
+  font-size: 36px;
+  letter-spacing: 5px;
+  line-height: 64px; 
+}
+.commonShadiws
+{
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.08);
+}
+/*CommonEnd*/
