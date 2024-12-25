@@ -54,13 +54,18 @@
 
 .menuVisibleSlide
 {
-  display: none;
+  display: block;
   background-color: white;
   width: 285px;
   height: 789px;
   position: absolute;
   left:1150px;
+  top:-900px;
   box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.08);
+}
+.menuVisibleSlide
+{
+  transition-duration: 1s;
 }
 .l_slideMenu
 {
