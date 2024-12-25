@@ -51,3 +51,114 @@
 {
   box-shadow: 0px 4px 8px 10px rgba(34, 60, 80, 0.08);
 }
+
+.menuVisibleSlide
+{
+  display: none;
+  background-color: white;
+  width: 285px;
+  height: 789px;
+  position: absolute;
+  left:1150px;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.08);
+}
+.l_slideMenu
+{
+  margin-left: 36px;
+  max-width: 207px;
+}
+.p_clock
+{
+  color:#9093A6;
+  font-size: 12px;
+  line-height: 16px;
+}
+.p_number
+{
+  color: #3F4255;
+}
+.el_slideMenu
+{
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+	border-bottom: 1px solid #F2F4FA;
+  color: #9093A6;
+  padding-bottom: 22px;
+  padding-top: 22px;
+ 
+}
+.slecterMenuDowninHat
+{
+}
+.selecter_Lang
+{
+  margin-top: 24px;
+  margin-right: 35px;
+  color: #9093A6;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.imageCall
+{
+  width: 24px;
+  height: 24px;
+  margin-right: 13px;
+}
+.boxSizePhoneClock
+{
+  display: flex;
+}
+.linkSlideMenu
+{
+ 
+}
+/*BurgerMenu Start*/
+.burger-checkbox {
+  position: absolute;
+  visibility: hidden;
+}
+.burger {
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: none;
+  background: transparent;
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+.burger::before,
+.burger::after {
+  content: '';
+  left: 0;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  border-radius: 10px;
+  background: #9093A6;
+}
+.burger::before {
+  top: 0;
+  box-shadow: 0 11px 0 #9093A6;
+  transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+}
+.burger::after {
+  bottom: 0;
+  transition: bottom .3s .15s, transform .3s;
+}
+.burger-checkbox:checked + .burger::before {
+  top: 11px;
+  transform: rotate(45deg);
+  box-shadow: 0 6px 0 rgba(0,0,0,0);
+  transition: box-shadow .15s, top .3s, transform .3s .15s;
+}
+.burger-checkbox:checked + .burger::after {
+  bottom: 11px;
+  transform: rotate(-45deg);
+  transition: bottom .3s, transform .3s .15s;
+}

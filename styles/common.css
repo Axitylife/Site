@@ -70,6 +70,14 @@ p
   padding: 0;
 }
 
+
+
+a,a:hover, a:active
+{
+  text-decoration: none;
+  color: #9093A6;
+}
+
 /* =========================== Custom tag =========================== */
 
 /* =========================== Prefics c_ = common + nameVariablev ===========================*/
