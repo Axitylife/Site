@@ -5,6 +5,7 @@
   border: none;
 	border-bottom: 1px solid #9093A6;
   color: #9093A6;
+ 
 }
 .navigationSite 
 {
@@ -13,9 +14,9 @@
 }
 .listNavigation 
 {
-    margin-top: 24px;
     list-style: none;
     display: flex;
+    align-items: center;
 }
 .listElementNavigationMenu
 {
@@ -29,6 +30,12 @@
 {
   margin-top: 24px;
   margin-bottom: 23px;
+}
+.positionBurger
+{
+  position: relative;
+  top: 12px;
+  left: 12px;
 }
 /*Header end*/
 
@@ -672,7 +679,13 @@ margin-top: 72px;
 	border-bottom: 1px solid #9093A6;
   color: #9093A6;
 }
-
+.s_FixedPositionNavigationMenu
+{
+  position: sticky;
+  top:0;
+  z-index: 5;
+  background-color: white;
+}
 
 /*BurgerMenu Start*/
 .burger-checkbox {
@@ -721,4 +734,15 @@ margin-top: 72px;
   transition: bottom .3s, transform .3s .15s;
 }
 
-/*MenuBurger End*/
+
+.test
+{
+  color: red;
+  display: block;
+  background-color: white;
+  width: 285px;
+  height: 789px;
+  position: absolute;
+  left:1150px;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.08);
+}
