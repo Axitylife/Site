@@ -59,13 +59,20 @@
   width: 285px;
   height: 789px;
   position: absolute;
-  left:1150px;
-  top:-900px;
+  left:1155px;
+  top:-800px;
   box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.08);
+  transition: top 1s 1s;
 }
-.menuVisibleSlide
+.activate
 {
-  transition-duration: 1s;
+  top: 76px;
+  transition: top 1s;
+}
+.deactivate
+{
+  top:-800px;
+  transition: top 1.5s;
 }
 .l_slideMenu
 {

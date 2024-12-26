@@ -1,299 +1,250 @@
-
 /*Header start*/
-.borderHead
-{
+.borderHead {
   border: none;
-	border-bottom: 1px solid #9093A6;
-  color: #9093A6;
- 
+  border-bottom: 1px solid #9093a6;
+  color: #9093a6;
 }
-.navigationSite 
-{
+.navigationSite {
   display: flex;
   justify-content: space-between;
 }
-.listNavigation 
-{
-    list-style: none;
-    display: flex;
-    align-items: center;
+.listNavigation {
+  list-style: none;
+  display: flex;
+  align-items: center;
 }
-.listElementNavigationMenu
-{
+.listElementNavigationMenu {
   margin-right: 48px;
 }
-.listElementNavigationMenu:last-child
-{
+.listElementNavigationMenu:last-child {
   margin-right: 0;
 }
-.imageLogoHeader
-{
+.imageLogoHeader {
   margin-top: 24px;
   margin-bottom: 23px;
 }
-.positionBurger
-{
+.positionBurger {
   position: relative;
   top: 12px;
   left: 12px;
 }
 /*Header end*/
 
-
 /*First Section start. (ShowCase) */
-.imagesPreviuse
-{
+.imagesPreviuse {
   position: relative;
   display: flex;
   max-width: 803px;
 }
-.mainText
-{
-  color: #3F4255;
+.mainText {
+  color: #3f4255;
   line-height: 68px;
   font-size: 58px;
   letter-spacing: 5px;
   max-width: 534px;
   height: 128px;
 }
-.maininfoText
-{
-  margin-top:120px ;
+.maininfoText {
+  margin-top: 120px;
 }
-.mainTextinButton
-{
+.mainTextinButton {
   font-size: 16px;
 }
-.otherTextInButton
-{
+.otherTextInButton {
   font-size: 12px;
 }
-.informationWindow
-{
+.informationWindow {
   display: flex;
   justify-content: space-between;
 }
 
-.previuImage
-{
+.previuImage {
   max-width: 648px;
   max-height: 648px;
   width: 100%;
   height: 100%;
   position: relative;
 }
-.rucolaPos
-{
+.rucolaPos {
   position: relative;
   max-width: 122px;
   max-height: 166px;
   top: 380px;
   left: 50px;
 }
-.arrow
-{
- top: 590px;
- left: 530px;
- position: absolute;
- text-align: center;
- justify-content: left;
- padding-left: 20px;
+.arrow {
+  top: 590px;
+  left: 530px;
+  position: absolute;
+  text-align: center;
+  justify-content: left;
+  padding-left: 20px;
 }
-.variableGetEat
-{
+.variableGetEat {
   margin-top: 88px;
   display: flex;
   justify-content: space-between;
   max-width: 259px;
 }
-.showVariabgle
-{
-  border: solid, 2px, #FFE145;
+.showVariabgle {
+  border: solid, 2px, #ffe145;
   border-radius: 5px;
   width: 118px;
   height: 72px;
   text-align: center;
-  background-color: white; 
+  background-color: white;
   letter-spacing: 0.5px;
-  
 }
 
-
-
-
-.textDilivery
-{
+.textDilivery {
   max-width: 100%;
 }
 
-.imageRucola
-{
+.imageRucola {
   position: relative;
   rotate: 31.5%;
   top: -500px;
 }
-/*First Section end*/a
+/*First Section end*/
+a
 
 
 /*SuBFirst Section Start*/
-.components
-{
+.components {
   width: 1440px;
   position: relative;
 }
-.boxDilivery
-{
+.boxDilivery {
   display: flex;
   width: 872px;
   height: 104px;
 }
-.sizeImageDilivery
-{
+.sizeImageDilivery {
   width: 48px;
   height: 48px;
   margin-right: 16px;
 }
-.descriptionDelivery
-{
+.descriptionDelivery {
   font-size: 16px;
   letter-spacing: 0.5px;
   line-height: 24px;
   margin-right: 46px;
 }
-.borderDiliveryElements
-{
+.borderDiliveryElements {
   display: flex;
   max-height: 46px;
   padding-top: 28px;
 
-  white-space: nowrap
+  white-space: nowrap;
 }
-.borderDiliveryElements:first-child
-{
+.borderDiliveryElements:first-child {
   margin-left: 92px;
 }
-.textArrow
-{
+.textArrow {
   font-size: 16px;
   letter-spacing: 0.5px;
   line-height: 24px;
   white-space: nowrap;
   margin-top: 14px;
-
 }
 
-
-
 /*Second Section start*/
-.headerSectionRestaurants
-{
+.headerSectionRestaurants {
   margin-top: 72px;
   justify-content: space-between;
   display: flex;
   letter-spacing: 8%;
   font-size: 36px;
-  margin-top:48px ;
-  
+  margin-top: 48px;
 }
-.sliderMenuList
-{
+
+/**/
+.sliderMenuList {
   display: flex;
-  margin-top: 48px; 
+  margin-top: 48px;
   padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.sliderlistMenuElement {
+  margin-right: 24px;
+  left: 0;
   position: relative;
 }
 
-.sliderlistMenuElement
-{
-  margin-right: 24px;
-}
-.arrowPlace
-{
+/**/
+.arrowPlace {
   position: relative;
   bottom: 180px;
   display: flex;
 }
-.arrowPlaceSpecialities
-{
+.arrowPlaceSpecialities {
   position: relative;
   bottom: 100px;
   display: flex;
 }
-.backSliderMenu
-{
-  position: absolute; 
+.backSliderMenu {
+  position: absolute;
   left: -25px;
 }
-.forwardSliderMenu
-{
+.forwardSliderMenu {
   position: absolute;
   left: 1193px;
 }
-.rightArrowSpecialities
-{
+.rightArrowSpecialities {
   position: relative;
   left: 1230px;
 }
-.leftArrowSpecialities
-{
+.leftArrowSpecialities {
   position: relative;
   right: 70px;
 }
 /*Second Section end*/
 
-
 /*Third Section start*/
-.sectionFindRestaurane
-{
+.sectionFindRestaurane {
   margin-top: 72px;
-  background-color: #F2F4FA;
+  background-color: #f2f4fa;
   height: 297px;
   width: 100%;
 }
-.findRestauranFlex
-{
+.findRestauranFlex {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
-.titleAndDiscriptionBorder
-{
-  color:#3F4255;
+.titleAndDiscriptionBorder {
+  color: #3f4255;
 }
-.titleFindRestauran
-{
+.titleFindRestauran {
   margin-top: 80px;
   margin-right: 159px;
 }
-.descriptionFindRestauran
-{
+.descriptionFindRestauran {
   font-size: 16px;
   letter-spacing: 0.5px;
   margin-top: 24px;
   width: 424.17px;
   line-height: 24px;
 }
-.inputFindAdress
-{
+.inputFindAdress {
   margin-top: 113px;
   margin-right: 0;
 }
-.inputWindowFindAdress
-{
+.inputWindowFindAdress {
   width: 336px;
   height: 72px;
   border: none;
   border-radius: 6px;
 }
 
-
-.circleInButton
-{
+.circleInButton {
   display: none;
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   opacity: 0.4;
   position: absolute;
   bottom: 8px;
@@ -301,20 +252,16 @@
 }
 /*Third Section start*/
 
-
 /*Four Section start*/
-.SpecialitiesSection
-{
-margin-top: 72px;
+.SpecialitiesSection {
+  margin-top: 72px;
 }
-.listSpecialitlies
-{
+.listSpecialitlies {
   margin-top: 48px;
   display: flex;
 }
 
-.elementSpecialitlesList
-{
+.elementSpecialitlesList {
   width: 136px;
   height: 136px;
   min-width: 136px;
@@ -325,257 +272,206 @@ margin-top: 72px;
   letter-spacing: 0.5px;
   line-height: 24px;
 }
-.imgSpecialitlies
-{
+.imgSpecialitlies {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 24px;
   margin-left: 0 auto;
 }
-.textSpecialitles
-{
+.textSpecialitles {
   margin-top: 10px;
 }
-.elementSpecialitlesList:last-child
-{
- 
+.elementSpecialitlesList:last-child {
   margin-right: 0px;
 }
-.arrowPlaceSpecialities
-{
+.arrowPlaceSpecialities {
   position: relative;
 }
-.backSliderSpecialities
-{
+.backSliderSpecialities {
   position: absolute;
-  transform: rotate(180deg); 
-  left:-65px;
+  transform: rotate(180deg);
+  left: -65px;
   top: -20px;
-
 }
-.forwardSliderMenuSpecialities
-{
+.forwardSliderMenuSpecialities {
   position: absolute;
-  left:  1190px;
+  left: 1190px;
 }
 
-
-.imgArrow
-{
+.imgArrow {
   position: relative;
-  top:12px;
-  left:12px;
+  top: 12px;
+  left: 12px;
 }
-.rightArrow
-{
+.rightArrow {
   position: relative;
   left: 1230px;
 }
-.leftArrow
-{
+.leftArrow {
   position: relative;
-  right: 65px; 
+  right: 65px;
 }
-.imgArrowLeft
-{
+.imgArrowLeft {
   position: relative;
   top: 15px;
   left: 15px;
 }
-.imgArrowRight
-{
+.imgArrowRight {
   position: relative;
   top: 12px;
   left: 12px;
 }
 /*Four Section end*/
 
-
-
 /*Five Section start*/
-.sectionDataRest
-{
+.sectionDataRest {
   background: url(../images/bgLime.png);
   width: 1440px;
   height: 284px;
   margin-top: 72px;
 }
-.circlesList
-{
+.circlesList {
   display: flex;
   padding-top: 56px;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   position: relative;
 }
 
-
-.selecterNumber
-{
+.selecterNumber {
   font-size: 58px;
   letter-spacing: 5%;
   line-height: 64px;
   text-align: center;
-  color: #3F4255;
+  color: #3f4255;
   position: relative;
   top: 110px;
   right: 5px;
   text-align: center;
 }
-.dicriptionVariable
-{
+.dicriptionVariable {
   text-align: center;
   font-size: 24px;
   line-height: 32px;
   margin-top: 2px;
 }
-.borderSphere
-{
+.borderSphere {
   width: 127px;
   height: 127px;
   border-radius: 50%;
-  background: #FFE145;
+  background: #ffe145;
   margin-right: 39px;
   margin-left: 40px;
   position: relative;
-  color: #3F4255;
+  color: #3f4255;
 }
-.borderSphere::before
-{
-  content: '';
-  position: absolute; 
+.borderSphere::before {
+  content: "";
+  position: absolute;
   display: block;
   bottom: 22px;
   width: 127px;
   height: 127px;
   border-radius: 50%;
-  border: solid 1px #B79C10;
+  border: solid 1px #b79c10;
 }
-.numberPositionInSphere
-{
+.numberPositionInSphere {
   position: relative;
   top: 15px;
-  left:0px;
+  left: 0px;
   font-size: 58px;
   line-height: 64px;
   letter-spacing: 5%;
   text-align: center;
 }
 
-.sizeBoxSphere
-{
+.sizeBoxSphere {
   display: flex;
   justify-content: center;
   padding-top: 50px;
   text-align: center;
 }
-.textSphere
-{
+.textSphere {
   margin-top: 65px;
-  font-size:24px;
+  font-size: 24px;
   width: 225px;
   line-height: 32px;
   text-wrap: nowrap;
   text-align: center;
   position: relative;
   left: -51px;
-
 }
 /*Six Section start*/
-.showMap
-{
+.showMap {
   margin-top: 72px;
   width: 1440px;
 }
-.imgMap
-{
+.imgMap {
   width: 1280px;
   height: 600px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
-
-.backgroundCircles
-{
+.backgroundCircles {
   background: url(../images/iCircle.png);
-  
 }
-.descriptionCircle
-{
+.descriptionCircle {
   font-size: 24px;
   line-height: 32px;
 }
 
 /*Six Section End*/
- 
-
-
-
-
 
 /*Seven Section start*/
-.sectionInstagramm
-{
+.sectionInstagramm {
   margin-top: 72px;
 }
-.instagramPhotoList
-{
+.instagramPhotoList {
   padding: 0;
   margin-top: 21px;
   display: flex;
   justify-content: space-between;
   margin-left: auto;
-  margin-right: auto; 
+  margin-right: auto;
   width: 1280px;
 }
-.elemenInstagrammList
-{
+.elemenInstagrammList {
   margin-right: 24px;
 }
-.elemenInstagrammList:last-child
-{
+.elemenInstagrammList:last-child {
   margin-right: 0px;
 }
-.titleInstagramm
-{
-  color:#313030;
+.titleInstagramm {
+  color: #313030;
 }
-.othertextInsta
-{
+.othertextInsta {
   color: gray;
 }
 /*Seven Section end*/
 
 /*Footer start*/
-.footerData
-{
-  background-color: #3F4255;
-  color: #FFFFFF;
+.footerData {
+  background-color: #3f4255;
+  color: #ffffff;
   height: 100%;
   margin-top: 72px;
 }
-.whiteLogo
-{
+.whiteLogo {
   padding-bottom: 48px;
 }
-.boderLogoBottom
-{
+.boderLogoBottom {
   border: none;
-	border-bottom: 1px solid #9093A6;
-  color: #9093A6;
+  border-bottom: 1px solid #9093a6;
+  color: #9093a6;
 }
-.boxFotter
-{
+.boxFotter {
   display: flex;
   justify-content: space-between;
-  
 }
-.colomnInFooterData
-{
+.colomnInFooterData {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -583,106 +479,85 @@ margin-top: 72px;
   position: relative;
   left: 25px;
 }
-.colomnData
-{
+.colomnData {
   font-size: 16px;
   letter-spacing: 0.5px;
-  color: #D4D7E5;
+  color: #d4d7e5;
   margin-bottom: 16px;
   line-height: 20px;
 }
-.otherSettingsColomnData
-{
+.otherSettingsColomnData {
   line-height: 24px;
   letter-spacing: 0.5px;
   font-size: 16px;
   margin-bottom: 16px;
 }
-.footerLast
-{
+.footerLast {
   display: flex;
   margin-top: 48px;
   justify-content: space-between;
   margin-bottom: 48px;
-  
 }
-.logoList
-{
+.logoList {
   display: flex;
   margin-bottom: 48px;
 }
-.logoList:last-child
-{
+.logoList:last-child {
   margin-right: 0px;
-  
 }
-.elementLogoList
-{
+.elementLogoList {
   width: 21.66px;
   height: 21.66px;
   margin-right: 25.17px;
 }
-.footerPrivacyList
-{
+.footerPrivacyList {
   display: flex;
 }
-.elementPrivacyList
-{
+.elementPrivacyList {
   margin-right: 25px;
 }
-.footerLogoWindow
-{
+.footerLogoWindow {
   justify-content: space-between;
   max-width: 296px;
   margin-top: 48px;
   margin-right: 184px;
   position: relative;
 }
-.storesBorder
-{
+.storesBorder {
   max-width: 173.69;
   max-height: 28.49px;
   display: flex;
   margin-right: 184px;
 }
-.storesIcon
-{
+.storesIcon {
   max-width: 173.69px;
   width: 78px;
   height: 28.5px;
   margin-top: 48px;
-
 }
-.storesIcon:last-child-child
-{
-  margin-right: 8.50p;
+.storesIcon:last-child {
+  margin-right: 8.5px;
 }
-.firstElementColomnData
-{
+.firstElementColomnData {
   font-size: 24px;
   margin-bottom: 24px;
   text-align: left;
 }
-.elementPrivacyList:last-child
-{
- font-size: 12px;
+.elementPrivacyList:last-child {
+  font-size: 12px;
 }
 
-.colomnDataList
-{
+.colomnDataList {
   line-height: 32px;
-
 }
-.underlineLogo
-{
+.underlineLogo {
   border: none;
-	border-bottom: 1px solid #9093A6;
-  color: #9093A6;
+  border-bottom: 1px solid #9093a6;
+  color: #9093a6;
 }
-.s_FixedPositionNavigationMenu
-{
+.s_FixedPositionNavigationMenu {
   position: sticky;
-  top:0;
+  top: 0;
   z-index: 5;
   background-color: white;
 }
