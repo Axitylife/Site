@@ -180,40 +180,30 @@ a
   margin-right: 0;
 }
 
-
-
-
-
-.Specialities_slider
-{
+.Specialities_slider {
   position: relative;
   margin-top: 72px;
   overflow: hidden;
 }
-.Specialities_sliderLine
-{
+.Specialities_sliderLine {
   display: flex;
   position: relative;
   left: 0;
   transition: all ease 1s;
 }
-.Specialities_SliderItem
-{
+.Specialities_SliderItem {
   text-align: center;
   margin-right: 24px;
 }
-.Specialities_SliderItem:last-child
-{
+.Specialities_SliderItem:last-child {
   margin-right: 0;
 }
-.Specialities_imageItem
-{
+.Specialities_imageItem {
   padding-left: 44px;
   padding-right: 44px;
   margin-top: 24px;
 }
-.textSpecialitles
-{
+.textSpecialitles {
   margin-top: 16px;
 
   font-size: 16px;
@@ -222,21 +212,20 @@ a
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #313030;
-
 }
-
-
 
 /**/
 .arrowPlace {
   position: relative;
   bottom: 180px;
   display: flex;
+  justify-content: space-between;
 }
 .arrowPlaceSpecialities {
   position: relative;
-  bottom: 100px;
+  bottom: 70px;
   display: flex;
+  justify-content: space-between;
 }
 .backSliderMenu {
   position: absolute;
@@ -248,11 +237,11 @@ a
 }
 .rightArrowSpecialities {
   position: relative;
-  left: 1230px;
+  left: 20px;
 }
 .leftArrowSpecialities {
   position: relative;
-  right: 70px;
+  right: 20px;
 }
 /*Second Section end*/
 
@@ -285,12 +274,23 @@ a
 .inputFindAdress {
   margin-top: 113px;
   margin-right: 0;
+  display: flex;
+}
+.i_locationImage {
+  width: 24px;
+  height: 24px;
+  top: 25px;
+  right: 420px;
+  position: relative;
 }
 .inputWindowFindAdress {
   width: 336px;
   height: 72px;
   border: none;
   border-radius: 6px;
+  box-sizing: border-box;
+  padding-left: 40px;
+  margin-right: 4px;
 }
 
 .circleInButton {
@@ -318,7 +318,7 @@ a
   min-height: 136px;
   margin-right: 24px;
   text-align: center;
-  font-size: 16px;slider
+  font-size: 16px;
   letter-spacing: 0.5px;
   line-height: 24px;
 }
@@ -344,11 +344,11 @@ a
 }
 .rightArrow {
   position: relative;
-  left: 1230px;
+  left: 20px;
 }
 .leftArrow {
   position: relative;
-  right: 65px;
+  right: 20px;
 }
 .imgArrowLeft {
   position: relative;
@@ -441,16 +441,13 @@ a
   left: -51px;
 }
 /*Six Section start*/
-.showMap {
-  margin-top: 72px;
-  width: 1440px;
-}
+
 .imgMap {
   width: 1280px;
   height: 600px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  margin-top: 72px;
 }
 
 .backgroundCircles {
@@ -550,7 +547,6 @@ a
   margin-right: 25.17px;
 }
 
-
 .footerPrivacyList {
   display: flex;
 }
@@ -602,20 +598,18 @@ a
   z-index: 5;
   background-color: white;
 }
-.test
-{background-color: #FFFFFF;
+.test {
+  background-color: #ffffff;
   border-radius: 25px;
-  color: #3F4255;
+  color: #3f4255;
   text-align: center;
   display: none;
 }
-.testActivate
-{
-display: block;
+.testActivate {
+  display: block;
 }
-.setLang
-{
-  background-color: #3F4255;
+.setLang {
+  background-color: #3f4255;
   border-radius: 25px;
   color: white;
   text-align: center;
@@ -624,7 +618,6 @@ display: block;
   margin-left: auto;
   margin-right: 0;
 }
-.setLangActivate
-{
+.setLangActivate {
   display: block;
 }
