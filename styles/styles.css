@@ -159,19 +159,73 @@ a
 }
 
 /**/
-.sliderMenuList {
-  display: flex;
-  margin-top: 48px;
-  padding: 0;
+.slider {
   position: relative;
+  margin-top: 48px;
   overflow: hidden;
 }
 
-.sliderlistMenuElement {
-  margin-right: 24px;
-  left: 0;
+.sliderLine {
+  display: flex;
   position: relative;
+  left: 0;
+  transition: all ease 1s;
 }
+.sliderItem {
+  width: 296px;
+  height: 296px;
+  margin-right: 24px;
+}
+.sliderItem:last-child {
+  margin-right: 0;
+}
+
+
+
+
+
+.Specialities_slider
+{
+  position: relative;
+  margin-top: 72px;
+  overflow: hidden;
+}
+.Specialities_sliderLine
+{
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+.Specialities_SliderItem
+{
+  text-align: center;
+  margin-right: 24px;
+}
+.Specialities_SliderItem:last-child
+{
+  margin-right: 0;
+}
+.Specialities_imageItem
+{
+  padding-left: 44px;
+  padding-right: 44px;
+  margin-top: 24px;
+}
+.textSpecialitles
+{
+  margin-top: 16px;
+
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #313030;
+
+}
+
+
 
 /**/
 .arrowPlace {
@@ -256,10 +310,6 @@ a
 .SpecialitiesSection {
   margin-top: 72px;
 }
-.listSpecialitlies {
-  margin-top: 48px;
-  display: flex;
-}
 
 .elementSpecialitlesList {
   width: 136px;
@@ -268,23 +318,11 @@ a
   min-height: 136px;
   margin-right: 24px;
   text-align: center;
-  font-size: 16px;
+  font-size: 16px;slider
   letter-spacing: 0.5px;
   line-height: 24px;
 }
-.imgSpecialitlies {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 24px;
-  margin-left: 0 auto;
-}
-.textSpecialitles {
-  margin-top: 10px;
-}
-.elementSpecialitlesList:last-child {
-  margin-right: 0px;
-}
+
 .arrowPlaceSpecialities {
   position: relative;
 }
