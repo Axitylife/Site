@@ -1,44 +1,37 @@
-.buttonShowAll
-{
-  background-color: #F2F4FA;
+.buttonShowAll {
+  background-color: #f2f4fa;
   border: none;
-  width:118px ;
+  width: 118px;
   height: 48px;
-  color: #9093A6;
+  color: #9093a6;
   border-radius: 5px;
   font-size: 20px;
   letter-spacing: 0.5px;
-  transition: color 0.5s ease-in-out,   background-color .5s ease-in-out;
+  transition: color 0.5s ease-in-out, background-color 0.5s ease-in-out;
 }
-.buttonShowAll:hover
-{
-  background-color: #D4D7E5;
-  color: #3F4255;
+.buttonShowAll:hover {
+  background-color: #d4d7e5;
+  color: #3f4255;
 }
-.buttonShowAll:active
-{
-  background-color: #D4D7E5;
+.buttonShowAll:active {
+  background-color: #d4d7e5;
 }
 
-.sendButtonFindAdress
-{
+.sendButtonFindAdress {
   width: 88px;
   height: 72px;
-  background-color: #FFE145;
+  background-color: #ffe145;
   border: none;
   border-radius: 5px;
-  color:#B79C10;
+  color: #b79c10;
   position: relative;
   transition: background-color 0.5s ease;
 }
-.sendButtonFindAdress:hover
-{
-  background-color: #FFF7CC;
-  
+.sendButtonFindAdress:hover {
+  background-color: #fff7cc;
 }
 
-.circleSize
-{
+.circleSize {
   position: relative;
   width: 48px;
   height: 48px;
@@ -47,86 +40,71 @@
   border-radius: 50%;
   transition: box-shadow 0.5s ease;
 }
-.circleSize:hover
-{
+.circleSize:hover {
   box-shadow: 0px 4px 8px 10px rgba(34, 60, 80, 0.08);
 }
 
-.menuVisibleSlide
-{
+.menuVisibleSlide {
   display: block;
   background-color: white;
   width: 285px;
   height: 789px;
   position: absolute;
-  left:1155px;
-  top:-800px;
+  left: 1155px;
+  top: -800px;
   box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.08);
   transition: top 1s 1s;
 }
-.activate
-{
+.activate {
   top: 76px;
   transition: top 1s;
 }
-.deactivate
-{
-  top:-800px;
+.deactivate {
+  top: -800px;
   transition: top 1.5s;
 }
-.l_slideMenu
-{
+.l_slideMenu {
   margin-left: 36px;
   max-width: 207px;
 }
-.p_clock
-{
-  color:#9093A6;
+.p_clock {
+  color: #9093a6;
   font-size: 12px;
   line-height: 16px;
 }
-.p_number
-{
-  color: #3F4255;
+.p_number {
+  color: #3f4255;
 }
-.el_slideMenu
-{
+.el_slideMenu {
   font-size: 16px;
   letter-spacing: 0.5px;
   line-height: 20px;
-	border-bottom: 1px solid #F2F4FA;
-  color: #9093A6;
+  border-bottom: 1px solid #f2f4fa;
+  color: #9093a6;
   padding-bottom: 22px;
   padding-top: 22px;
- 
 }
-.slecterMenuDowninHat
-{
+.slecterMenuDowninHat {
 }
-.selecter_Lang
-{
+.selecter_Lang {
   margin-top: 24px;
   margin-right: 35px;
-  color: #9093A6;
+  color: #9093a6;
   font-size: 12px;
   line-height: 16px;
   text-align: right;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
-.imageCall
-{
+.imageCall {
   width: 24px;
   height: 24px;
   margin-right: 13px;
 }
-.boxSizePhoneClock
-{
+.boxSizePhoneClock {
   display: flex;
 }
-.linkSlideMenu
-{
- 
+.linkSlideMenu {
 }
 /*BurgerMenu Start*/
 .burger-checkbox {
@@ -145,32 +123,32 @@
 }
 .burger::before,
 .burger::after {
-  content: '';
+  content: "";
   left: 0;
   position: absolute;
   display: block;
   width: 100%;
   height: 2px;
   border-radius: 10px;
-  background: #9093A6;
+  background: #9093a6;
 }
 .burger::before {
   top: 0;
-  box-shadow: 0 11px 0 #9093A6;
-  transition: box-shadow .3s .15s, top .3s .15s, transform .3s;
+  box-shadow: 0 11px 0 #9093a6;
+  transition: box-shadow 0.3s 0.15s, top 0.3s 0.15s, transform 0.3s;
 }
 .burger::after {
   bottom: 0;
-  transition: bottom .3s .15s, transform .3s;
+  transition: bottom 0.3s 0.15s, transform 0.3s;
 }
 .burger-checkbox:checked + .burger::before {
   top: 11px;
   transform: rotate(45deg);
-  box-shadow: 0 6px 0 rgba(0,0,0,0);
-  transition: box-shadow .15s, top .3s, transform .3s .15s;
+  box-shadow: 0 6px 0 rgba(0, 0, 0, 0);
+  transition: box-shadow 0.15s, top 0.3s, transform 0.3s 0.15s;
 }
 .burger-checkbox:checked + .burger::after {
   bottom: 11px;
   transform: rotate(-45deg);
-  transition: bottom .3s, transform .3s .15s;
+  transition: bottom 0.3s, transform 0.3s 0.15s;
 }

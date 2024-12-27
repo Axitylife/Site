@@ -543,11 +543,14 @@ a
 .logoList:last-child {
   margin-right: 0px;
 }
+
 .elementLogoList {
   width: 21.66px;
   height: 21.66px;
   margin-right: 25.17px;
 }
+
+
 .footerPrivacyList {
   display: flex;
 }
@@ -598,4 +601,30 @@ a
   top: 0;
   z-index: 5;
   background-color: white;
+}
+.test
+{background-color: #FFFFFF;
+  border-radius: 25px;
+  color: #3F4255;
+  text-align: center;
+  display: none;
+}
+.testActivate
+{
+display: block;
+}
+.setLang
+{
+  background-color: #3F4255;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  display: none;
+  width: 100px;
+  margin-left: auto;
+  margin-right: 0;
+}
+.setLangActivate
+{
+  display: block;
 }

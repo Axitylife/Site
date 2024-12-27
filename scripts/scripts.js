@@ -113,6 +113,17 @@ document
     }
   });
 
+const buttonDown = document.querySelector(".slecterMenuDown");
+
+buttonDown.onclick = function () {
+  document.querySelector(".test").classList.add("testActivate");
+};
+document
+  .querySelector(".slecterMenuDowninHat")
+  .addEventListener("click", function () {
+    document.querySelector(".setLang").classList.add("setLangActivate");
+  });
+
 /**
 swapButtonRight.onclick = function () {
   const tmp = swapRestaurantElements[0].innerHTML;
