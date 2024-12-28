@@ -87,7 +87,7 @@
   max-width: 259px;
 }
 .showVariabgle {
-  border: solid, 2px, #ffe145;
+  border: solid 2px #ffe145;
   border-radius: 5px;
   width: 118px;
   height: 72px;
@@ -102,7 +102,6 @@
 
 .imageRucola {
   position: relative;
-  rotate: 31.5%;
   top: -500px;
 }
 /*First Section end*/
@@ -153,7 +152,7 @@ a
   margin-top: 72px;
   justify-content: space-between;
   display: flex;
-  letter-spacing: 8%;
+  letter-spacing: 0.08em;
   font-size: 36px;
   margin-top: 48px;
 }
@@ -256,10 +255,21 @@ a
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .titleAndDiscriptionBorder {
   color: #3f4255;
+  position: relative;
+  left: -150px;
+  opacity: 0;
+  transition: all linear 1s;
 }
+.m_titleAndDiscriptionBorder {
+  position: relative;
+  opacity: 1;
+  left: 0;
+}
+
 .titleFindRestauran {
   margin-top: 80px;
   margin-right: 159px;
@@ -275,6 +285,15 @@ a
   margin-top: 113px;
   margin-right: 0;
   display: flex;
+  position: relative;
+  right: -150px;
+  opacity: 0;
+  transition: all linear 1s;
+}
+.m_inputFindAdress {
+  position: relative;
+  right: 0px;
+  opacity: 1;
 }
 .i_locationImage {
   width: 24px;
@@ -309,8 +328,15 @@ a
 /*Four Section start*/
 .SpecialitiesSection {
   margin-top: 72px;
+  position: relative;
+  opacity: 0;
+  left: -150px;
+  transition: all linear 1s;
 }
-
+.m_SpecialitiesSection {
+  opacity: 1;
+  left: 0;
+}
 .elementSpecialitlesList {
   width: 136px;
   height: 136px;
@@ -379,7 +405,7 @@ a
 
 .selecterNumber {
   font-size: 58px;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   line-height: 64px;
   text-align: center;
   color: #3f4255;
@@ -403,6 +429,8 @@ a
   margin-left: 40px;
   position: relative;
   color: #3f4255;
+  transition: all linear 1s;
+  top: 250px;
 }
 .borderSphere::before {
   content: "";
@@ -414,13 +442,16 @@ a
   border-radius: 50%;
   border: solid 1px #b79c10;
 }
+.m_borderSphere {
+  top: 0;
+}
 .numberPositionInSphere {
   position: relative;
   top: 15px;
   left: 0px;
   font-size: 58px;
   line-height: 64px;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   text-align: center;
 }
 
@@ -429,7 +460,9 @@ a
   justify-content: center;
   padding-top: 50px;
   text-align: center;
+  position: relative;
 }
+
 .textSphere {
   margin-top: 65px;
   font-size: 24px;
@@ -484,6 +517,9 @@ a
 }
 .othertextInsta {
   color: gray;
+}
+.instaPhoto {
+  margin: 0;
 }
 /*Seven Section end*/
 
@@ -561,7 +597,7 @@ a
   position: relative;
 }
 .storesBorder {
-  max-width: 173.69;
+  max-width: 173.69px;
   max-height: 28.49px;
   display: flex;
   margin-right: 184px;
@@ -597,27 +633,4 @@ a
   top: 0;
   z-index: 5;
   background-color: white;
-}
-.test {
-  background-color: #ffffff;
-  border-radius: 25px;
-  color: #3f4255;
-  text-align: center;
-  display: none;
-}
-.testActivate {
-  display: block;
-}
-.setLang {
-  background-color: #3f4255;
-  border-radius: 25px;
-  color: white;
-  text-align: center;
-  display: none;
-  width: 100px;
-  margin-left: auto;
-  margin-right: 0;
-}
-.setLangActivate {
-  display: block;
 }

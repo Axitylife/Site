@@ -1,4 +1,4 @@
-/*CreateElements*/
+/*Burger menu*/
 const burgerMenu = document.querySelector(".burger");
 const header = document.querySelector(".burgerMenuOpen");
 let selecterBurger = false;
@@ -19,7 +19,7 @@ burgerMenu.onclick = function () {
   }
 };
 
-/*Also need create method if maxImages  < maximagesinLine *2*/
+/*Slider in Second Section*/ /*Also need create method if maxImages  < maximagesinLine *2*/
 const maxImagesinLine = 4;
 let currentPosition = 0;
 let currentStep = 0;
@@ -58,6 +58,7 @@ document.querySelector(".leftArrow").addEventListener("click", function () {
   }
 });
 
+/*Slider in Four Section*/ /*Also need create method if maxImages  < maximagesinLine *2*/
 const maxImagesinLineSpecialist = 8;
 let currentPositionSpecialist = 0;
 let currentStepSpecialist = 0;
@@ -89,7 +90,7 @@ document
     } else {
     }
   });
-
+/*Slider in Four Section*/
 document
   .querySelector(".leftArrowSpecialities")
   .addEventListener("click", function () {
@@ -113,17 +114,78 @@ document
     }
   });
 
-const buttonDown = document.querySelector(".slecterMenuDown");
+/*Selecter Languange /*Hat*/
+let bSelecterMenuHat = false;
 
-buttonDown.onclick = function () {
-  document.querySelector(".test").classList.add("testActivate");
-};
 document
   .querySelector(".slecterMenuDowninHat")
   .addEventListener("click", function () {
-    document.querySelector(".setLang").classList.add("setLangActivate");
+    if (!bSelecterMenuHat) {
+      document.querySelector(".setLang").classList.add("setLangActivate");
+      document
+        .querySelector(".slecterMenuDowninHat")
+        .classList.add("activateSelecterMenu");
+      bSelecterMenuHat = true;
+    } else {
+      document
+        .querySelector(".slecterMenuDowninHat")
+        .classList.remove("activateSelecterMenu");
+      document.querySelector(".setLang").classList.remove("setLangActivate");
+      bSelecterMenuHat = false;
+    }
   });
 
+/*Foot*/
+let bSelecterMenuFoot = false;
+
+document
+  .querySelector(".slecterMenuDown")
+  .addEventListener("click", function () {
+    if (!bSelecterMenuFoot) {
+      document.querySelector(".selecterLang").classList.add("setLangActivate");
+      document
+        .querySelector(".slecterMenuDown")
+        .classList.add("activateSelecterMenu");
+      bSelecterMenuFoot = true;
+    } else {
+      document
+        .querySelector(".slecterMenuDown")
+        .classList.remove("activateSelecterMenu");
+      document
+        .querySelector(".selecterLang")
+        .classList.remove("setLangActivate");
+      bSelecterMenuFoot = false;
+    }
+  });
+
+/*Scroll*/
+const scrollPosition = window.scrollY;
+window.addEventListener("scroll", function () {
+  const scrollPosition = window.scrollY;
+  if (scrollPosition >= 500 && scrollPosition <= 1300) {
+    document
+      .querySelector(".titleAndDiscriptionBorder")
+      .classList.add("m_titleAndDiscriptionBorder");
+    document
+      .querySelector(".inputFindAdress")
+      .classList.add("m_inputFindAdress");
+  }
+  if (scrollPosition >= 900 && scrollPosition <= 1700) {
+    document
+      .querySelector(".SpecialitiesSection")
+      .classList.add("m_SpecialitiesSection");
+  }
+
+  if (scrollPosition >= 1300 && scrollPosition <= 2000) {
+    const elemetsSphere = document.querySelectorAll(".borderSphere");
+    for (let i = 0; i < elemetsSphere.length; i++) {
+      elemetsSphere[i].classList.add("m_borderSphere");
+    }
+  }
+  console.log(scrollPosition);
+});
+
+/*Old method use slider; is not validate*/
 /**
 swapButtonRight.onclick = function () {
   const tmp = swapRestaurantElements[0].innerHTML;
