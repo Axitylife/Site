@@ -158,10 +158,13 @@ a
 }
 
 /**/
+.sliderMenu {
+}
 .slider {
   position: relative;
   margin-top: 48px;
   overflow: hidden;
+  height: 330px;
 }
 
 .sliderLine {
@@ -183,6 +186,7 @@ a
   position: relative;
   margin-top: 72px;
   overflow: hidden;
+  height: 156px;
 }
 .Specialities_sliderLine {
   display: flex;
@@ -216,13 +220,13 @@ a
 /**/
 .arrowPlace {
   position: relative;
-  bottom: 180px;
+  bottom: 210px;
   display: flex;
   justify-content: space-between;
 }
 .arrowPlaceSpecialities {
   position: relative;
-  bottom: 70px;
+  bottom: 120px;
   display: flex;
   justify-content: space-between;
 }
@@ -633,4 +637,7 @@ a
   top: 0;
   z-index: 5;
   background-color: white;
+}
+.linkFoot {
+  color: #d4d7e5;
 }
