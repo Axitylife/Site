@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url(../fonts/SpaceGrotesk.ttf);
+}
+.addCommonFont {
+  font-family: "SpaceGrotesk";
+}
+
+h1,
+p,
+ul,
+li,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+.horizontalBox {
+  display: flex;
+  justify-content: space-between;
+}
+.sizeWindow {
+  width: 1440px;
+  margin: 0 auto;
+}
+.maxSizeContent {
+  width: 1240px;
+  margin: 0 auto;
+}
+.commonButtonStyle {
+  font-size: 20px;
+  line-height: 28px;
+  border-radius: 14px;
+  background-color: black;
+  color: white;
+  width: 264px;
+  height: 68px;
+  font-weight: 400;
+}
