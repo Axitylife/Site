@@ -41,9 +41,12 @@ ul {
 .sizeWindow {
   width: 1440px;
   margin: 0 auto;
+  width: auto;
+  box-sizing: content-box;
 }
 .maxSizeContent {
-  width: 1240px;
+  max-width: 1240px;
+  width: 100%;
   margin: 0 auto;
 }
 .commonButtonStyle {
@@ -58,4 +61,8 @@ ul {
 }
 .simpleMarginLeft40 {
   margin-left: 40px;
+}
+
+.PrintString {
+  border: red 1px solid;
 }
