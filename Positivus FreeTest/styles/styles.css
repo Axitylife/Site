@@ -1,42 +1,3 @@
-.header {
-  position: sticky;
-  width: 100%;
-  z-index: 10;
-  background-color: white;
-  top: 0;
-  margin: 0 auto;
-}
-.topLinkStyles {
-  text-decoration: none;
-  color: black;
-}
-.navigationHorizontalBox {
-  align-items: center;
-  margin-top: 60px;
-}
-.navigationList {
-  display: flex;
-  width: 100%;
-  max-width: 811px;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.navigationListBottom {
-  display: flex;
-  width: 100%;
-  max-width: 501px;
-  align-items: center;
-  justify-content: space-evenly;
-}
-.navigationListItem {
-  font-size: 20px;
-  line-height: 28px;
-  font-weight: 400;
-  margin: 0 auto;
-}
-.navigationListItem:last-child {
-  margin-right: 0;
-}
 .img_LogoCompany {
   filter: grayscale(100%);
 }
@@ -76,14 +37,7 @@
   margin-top: 70px;
   flex-wrap: wrap;
 }
-.button_inNavigation {
-  width: 231px;
-  height: 68px;
-  border-radius: 14px;
-  background-color: white;
-  font-weight: 400;
-  font-size: 20px;
-}
+
 .sizeBoxDescriptionServices {
   margin-top: 140px;
   text-align: left;
@@ -171,11 +125,6 @@
   justify-content: flex-start;
 }
 
-.bacgroundColorTextGreen {
-  background-color: #b9ff66;
-  border-radius: 5px;
-  border: 1px solid greenyellow;
-}
 .img_inCTA {
   position: relative;
   width: 494px;
@@ -245,10 +194,6 @@
   margin-bottom: 30px;
 }
 
-.numProcess {
-  font-size: 60px;
-  font-weight: 500;
-}
 .titleProcess {
   font-size: 30px;
   font-weight: 500;
@@ -293,6 +238,10 @@
 }
 .sizebox_Progress {
   margin: 41px 60px;
+}
+.textProgress {
+  align-items: center;
+  text-align: left;
 }
 .sectionProgress {
   margin-top: 80px;
@@ -459,91 +408,13 @@
   border-radius: 14px;
   margin-top: 40px;
 }
-.footerSizeBox {
-  background-color: #191a23;
-  height: 514px;
-  margin-top: 140px;
-  border-top-left-radius: 45px;
-  border-top-right-radius: 45px;
-  color: white;
-}
-.logoListItem {
-  margin-right: 20px;
-}
-.logoListItem:last-child {
-  margin-right: 0;
-}
-.navigationHorizontalBoxFooter {
-  max-width: 1121px;
-  width: 100%;
-  margin: 0 auto;
-}
-.middleDataFooter {
-  margin-top: 66px;
-  flex-wrap: wrap;
-}
+
 .sendEmael {
   max-height: 185px;
   height: 100%;
   background-color: #292a32;
   border-radius: 14px;
   margin-right: 40px;
-}
-.textData {
-  max-width: 332px;
-}
-.inputWindowFooterEmail {
-  max-width: 285px;
-  width: 100%;
-  height: 67px;
-  border: 1px #f3f3f3 solid;
-  background-color: #292a32;
-  border-radius: 14px;
-  font-size: 18px;
-  color: white;
-}
-.inputWindowFooterEmail::placeholder {
-  padding-left: 35px;
-}
-.SubscribeNewsButton {
-  background-color: #b9ff66;
-  color: #292a32;
-  font-size: 20px;
-  width: 249px;
-  height: 67px;
-  border-radius: 14px;
-}
-.sizeBox_Position {
-  height: 185px;
-  width: 634px;
-  justify-content: center;
-  gap: 10px;
-  align-items: center;
-}
-.bottom_footer {
-  border-top: solid 1px white;
-  padding-top: 55px;
-}
-.footerPosition {
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-  padding-top: 50px;
-}
-.sizeText_Contacts {
-  max-width: 126px;
-  width: 100%;
-  color: #191a23;
-  margin-top: 0;
-}
-.botLinkStyle,
-.botLinkStyle:visited {
-  color: white;
-}
-.footerLink,
-.footerLink:visited {
-  margin-left: 40px;
-  color: white;
 }
 
 .contactData {
@@ -552,9 +423,6 @@
   width: 100%;
   max-height: 132px;
   justify-content: space-between;
-}
-.sizeText_ContactsData {
-  margin-top: 20px;
 }
 
 input[type="radio"],
@@ -572,14 +440,43 @@ input[type="radio"]:not(:checked) {
   height: 28px;
   align-items: center;
 }
+
 @media (max-width: 1280px) {
-  .navigationList {
-    display: none;
-  }
   .imageContact {
     display: none;
   }
   .img_inCTA {
     display: none;
   }
+  .photoPos {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+@media (max-width: 828px) {
+  .sizeBoxDescriptionServices {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .BoxlistBottom {
+    display: block;
+  }
+  .learnMore {
+    display: none;
+  }
+  .sizeBox_card {
+    margin: 25px;
+  }
+  .imgInCard {
+    width: 100%;
+  }
+  .imgCard {
+    width: 100%;
+  }
+  .caseStudes_margin {
+    display: block;
+  }
+}
+@media (max-width: 636) {
 }

@@ -41,13 +41,16 @@ ul {
 .sizeWindow {
   width: 1440px;
   margin: 0 auto;
-  width: auto;
+  width: 100%;
   box-sizing: content-box;
 }
 .maxSizeContent {
   max-width: 1240px;
   width: 100%;
   margin: 0 auto;
+}
+.marginbeforetext {
+  margin-right: 25px;
 }
 .commonButtonStyle {
   font-size: 20px;
@@ -65,4 +68,175 @@ ul {
 
 .PrintString {
   border: red 1px solid;
+}
+.bacgroundColorTextGreen {
+  background-color: #b9ff66;
+  border-radius: 5px;
+  border: 1px solid greenyellow;
+}
+.header {
+  position: sticky;
+  width: 100%;
+  z-index: 10;
+  background-color: white;
+  top: 0;
+  margin: 0 auto;
+}
+.navigationHorizontalBoxFooter {
+  max-width: 1121px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navigationListItem {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+  margin: 0 auto;
+}
+.topLinkStyles {
+  text-decoration: none;
+  color: black;
+}
+.button_inNavigation {
+  width: 231px;
+  height: 68px;
+  border-radius: 14px;
+  background-color: white;
+  font-weight: 400;
+  font-size: 20px;
+}
+.footerSizeBox {
+  background-color: #191a23;
+  height: 514px;
+  margin-top: 140px;
+  border-top-left-radius: 45px;
+  border-top-right-radius: 45px;
+  color: white;
+}
+.footerPosition {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+}
+.navigationListBottom {
+  display: flex;
+  width: 100%;
+  max-width: 501px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logoListItem {
+  margin-right: 20px;
+}
+.logoListItem:last-child {
+  margin-right: 0;
+}
+.bottom_footer {
+  border-top: solid 1px white;
+  padding-top: 55px;
+}
+.footerLink,
+.footerLink:visited {
+  margin-left: 40px;
+  color: white;
+}
+.SubscribeNewsButton {
+  background-color: #b9ff66;
+  color: #292a32;
+  font-size: 20px;
+  width: 249px;
+  height: 67px;
+  border-radius: 14px;
+}
+.inputWindowFooterEmail {
+  max-width: 285px;
+  width: 100%;
+  height: 67px;
+  border: 1px #f3f3f3 solid;
+  background-color: #292a32;
+  border-radius: 14px;
+  font-size: 18px;
+  color: white;
+}
+.inputWindowFooterEmail::placeholder {
+  padding-left: 35px;
+}
+.sizeBox_Position {
+  height: 185px;
+  max-width: 634px;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.textData {
+  max-width: 332px;
+}
+.middleDataFooter {
+  margin-top: 66px;
+  flex-wrap: wrap;
+}
+.sizeText_Contacts {
+  max-width: 126px;
+  width: 100%;
+  color: #191a23;
+  margin-top: 0;
+}
+.sizeText_ContactsData {
+  margin-top: 20px;
+}
+.botLinkStyle,
+.botLinkStyle:visited {
+  color: white;
+}
+.navigationHorizontalBox {
+  align-items: center;
+  margin-top: 60px;
+}
+.navigationList {
+  display: flex;
+  width: 100%;
+  max-width: 811px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media (max-width: 1280px) {
+  .navigationList {
+    display: none;
+  }
+}
+@media (max-width: 828px) {
+  .navigationList {
+    display: none;
+  }
+  h1 {
+    font-size: 43px;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .commonButtonStyle {
+    width: 100%;
+    height: 68px;
+    font-weight: 400;
+  }
+  .maxSizeContent {
+    width: 100%;
+    border: 1px solid red;
+  }
+}
+@media (max-width: 636) {
+  .navigationList {
+    display: none;
+  }
 }
