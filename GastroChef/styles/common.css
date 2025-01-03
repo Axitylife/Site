@@ -1,0 +1,247 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f5faff;
+}
+.maxSizeContent {
+  width: 1286px;
+  margin: 0 auto;
+}
+.leftMenu-button {
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+  position: relative;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  margin-top: 50px;
+  font-size: 20px;
+}
+.leftMenu-button:hover {
+  background-color: #00ba2d;
+}
+.leftMenu-button:first-child {
+  margin-top: 0;
+}
+.conteinerLeftMenu {
+  max-width: 70px;
+  margin-left: 50px;
+  position: fixed;
+  top: 220px;
+  height: 670px;
+}
+.firstcircle {
+  background-color: #64d370;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 50%;
+  width: 1293px;
+  height: 1293px;
+  position: absolute;
+  left: 974px;
+  top: -99.22px;
+  z-index: -1;
+}
+.twoImages {
+  background-color: rgba(38, 240, 58, 0.1);
+  border-radius: 50%;
+  width: 544px;
+  height: 544px;
+  position: absolute;
+  z-index: -1;
+  left: -292.75px;
+  top: 1223.55px;
+}
+.circleBackground3 {
+  border: 30px solid rgba(38, 240, 58, 0.1);
+  border-radius: 50%;
+  width: 529px;
+  height: 529px;
+  position: absolute;
+  z-index: -1;
+  left: 1481px;
+  top: 1851.92px;
+}
+.horizontalBox {
+  display: flex;
+  justify-content: space-between;
+}
+.buttonOrder {
+  max-width: 280px;
+  width: 100%;
+  height: 60px;
+  border-radius: 190px;
+  border: none;
+  background-color: #64d370;
+  color: white;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+}
+
+.boxHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50%;
+}
+.navbar {
+  width: 880px;
+  background-color: white;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 190px;
+  height: 52px;
+
+  position: relative;
+}
+
+.imageCircleHeader {
+  border-radius: 50%;
+  background-color: white;
+  width: 264px;
+  height: 264px;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.underLogoText {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 116px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.navbar {
+  width: 880px;
+  background-color: white;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  border-radius: 190px;
+  height: 52px;
+  left: -250px;
+  top: 98px;
+  position: relative;
+}
+.nav-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 17px;
+  font-size: 14px;
+}
+
+.nav-menu li {
+  margin-left: 40px;
+  height: auto;
+}
+
+.nav-menu li:first-child {
+  margin-left: 0;
+}
+.nav-menu li:last-child {
+  margin-right: 20px;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: #020202;
+}
+
+.nav-menu a:hover {
+  color: #ccc;
+}
+.sizeBoxHeaderNumber {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -230px;
+  top: -10px;
+}
+
+.contact-info {
+  text-align: center;
+  border-radius: 25px;
+  width: 280px;
+  height: 52px;
+  background-color: white;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+}
+
+.phone-number {
+  color: #64d370;
+  width: 220px;
+  height: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.language-selector {
+  display: flex;
+  gap: 15px;
+}
+
+.language-button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+  position: relative;
+  left: 320px;
+  top: 30px;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+.language-button:hover {
+  background-color: #00ba2d;
+}
+.boxTopsize {
+  position: fixed;
+  top: -52px;
+  left: 315px;
+}
+.phone-number a {
+  text-decoration: none;
+  color: #64d370;
+}
+
+.phone-number a:hover {
+  color: #ccc;
+}
+.bg_Selected {
+  background-color: #00ba2d;
+  color: white;
+}
+.greenText {
+  color: #00ba2d;
+}

@@ -1,0 +1,235 @@
+.boxSizeContent {
+  width: 535px;
+  height: 237px;
+
+  margin-left: 367px;
+  margin-top: 400px;
+  z-index: 1;
+}
+.botTextInButtonOrder {
+  margin: 0;
+  color: #64d370;
+  padding: 0;
+
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+}
+.boxArrowSlider {
+  width: 156px;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 270px;
+}
+.rotate180 {
+  transform: rotate(180deg);
+}
+.selectCircle {
+  width: 14px;
+  height: 14px;
+}
+.imgData {
+  width: 10px;
+  height: 10px;
+}
+.sectionImagesHorizontal {
+  margin-top: 137px;
+}
+.sizeBoxFiguries {
+  background: rgba(245, 250, 255, 0.8);
+  border-radius: 30px;
+  font-size: 12px;
+}
+figcaption {
+  border: red solid 1px;
+  text-align: center;
+}
+figure {
+  text-align: center;
+}
+.twoButtons {
+  width: 1180px;
+  margin: 0 auto;
+  font-size: 25px;
+}
+.btn {
+  width: 580px;
+  height: 62px;
+  border-radius: 190px;
+  border: none;
+  margin-top: 100px;
+}
+.btn:first-child {
+  margin-right: 20px;
+  background: #64d370;
+  color: white;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  transition: all line 0.9s;
+}
+.btn:first-child:hover {
+  background: aquamarine;
+}
+.btn:last-child {
+  background-color: #dee6ee;
+}
+.boxOnlyText {
+  margin-top: 70px;
+}
+.titleTexth1 {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+.paragrahFirst {
+  margin-top: 15px;
+}
+.paramertoneLetter {
+  font-size: 20px;
+  color: #64d370;
+}
+.bottomHorizontalBox {
+  margin-top: 42px;
+}
+.topTextInButtonOrder {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 134%;
+  color: #020202;
+}
+.greentextTop {
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
+  color: #64d370;
+}
+.topTextOnlyTextSection {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.botTextOnlyTextSection {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 7px;
+}
+.boxSizeMainInfoBorder {
+  margin: 0 auto;
+  max-width: 1180px;
+  width: 100%;
+  height: 600px;
+}
+.sectionMainInfoBorder {
+  margin-top: 50px;
+  z-index: 1;
+}
+.selectedDataFEat {
+  width: 380px;
+  height: 250px;
+  background-color: #64d370;
+  border-radius: 30px;
+  padding: 30px 50px;
+  color: white;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+}
+
+.table {
+  width: 380px;
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 53px;
+}
+.setStyleText {
+  text-decoration: line-through;
+}
+.slectedMenuButton {
+  border-radius: 190px;
+  width: 280px;
+  height: 60px;
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+  background: #64d370;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #f5faff;
+  border: none;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+.days {
+  width: 780px;
+  height: 55px;
+}
+.daysList {
+  height: 100%;
+  list-style-type: none;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+  align-items: center;
+}
+.daysList li:first-child {
+  margin-left: 50px;
+}
+.daysList li:last-child {
+  margin-right: 50px;
+}
+.tableMenu {
+  width: 780px;
+  height: 525px;
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+  border-radius: 30px;
+  background-color: #f5faff;
+}
+.elementTable {
+  margin-top: 20px;
+  padding-top: 50px;
+}
+
+.timeSelecterMenu {
+  width: 130px;
+  margin-left: 50px;
+}
+.menusSelecterMenu {
+  width: 420px;
+}
+.picesSelecterMenu {
+  margin-right: 50px;
+  width: 60px;
+}
+.verticalBoxRight {
+  margin-left: 20px;
+}
+.photoMenu {
+  margin-top: 120px;
+}
+.photoMenu h1 {
+  margin: 0 auto;
+  width: 200px;
+
+  text-align: center;
+}
+.horizontalBoxPhoto {
+  margin-top: 60px;
+  width: 1915px;
+  width: 100%;
+}
+.photolist {
+  display: flex;
+  position: relative;
+  left: -150px;
+  z-index: -1;
+  list-style-type: none;
+}
+.mainHB {
+  position: relative;
+  overflow: hidden;
+}
