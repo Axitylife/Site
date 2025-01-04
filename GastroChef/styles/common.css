@@ -13,9 +13,15 @@ ul {
 body {
   background-color: #f5faff;
 }
+.maxSizeWindow {
+  width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
 .maxSizeContent {
   width: 1286px;
   margin: 0 auto;
+  position: relative;
 }
 .leftMenu-button {
   width: 70px;
@@ -42,42 +48,12 @@ body {
 }
 .conteinerLeftMenu {
   max-width: 70px;
-  margin-left: 50px;
   position: fixed;
   top: 220px;
+  margin-left: 50px;
   height: 670px;
 }
-.firstcircle {
-  background-color: #64d370;
-  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
-  border-radius: 50%;
-  width: 1293px;
-  height: 1293px;
-  position: absolute;
-  left: 974px;
-  top: -99.22px;
-  z-index: -1;
-}
-.twoImages {
-  background-color: rgba(38, 240, 58, 0.1);
-  border-radius: 50%;
-  width: 544px;
-  height: 544px;
-  position: absolute;
-  z-index: -1;
-  left: -292.75px;
-  top: 1223.55px;
-}
-.circleBackground3 {
-  border: 30px solid rgba(38, 240, 58, 0.1);
-  border-radius: 50%;
-  width: 529px;
-  height: 529px;
-  position: absolute;
-  z-index: -1;
-  left: 1481px;
-  top: 1851.92px;
-}
+
 .horizontalBox {
   display: flex;
   justify-content: space-between;
@@ -228,7 +204,8 @@ body {
 .boxTopsize {
   position: fixed;
   top: -52px;
-  left: 315px;
+  margin-left: 315px;
+  z-index: 10;
 }
 .phone-number a {
   text-decoration: none;
@@ -244,4 +221,179 @@ body {
 }
 .greenText {
   color: #00ba2d;
+}
+
+.footer {
+  box-shadow: 0 0 30px 0 rgba(86, 86, 86, 0.25);
+  background: #f5faff;
+  border-radius: 30px;
+  width: 2105px;
+  height: 263px;
+  margin: 150px auto 100px auto;
+}
+.fotterList {
+  list-style-type: none;
+}
+.fotterList a {
+  font-weight: 700;
+  font-size: 20px;
+  color: #020202;
+  text-decoration: none;
+}
+.footer a:visited {
+  font-weight: 700;
+  font-size: 20px;
+  color: #020202;
+}
+.maxFooterSize {
+  width: 1181px;
+  margin: 0 auto;
+  padding-top: 23px;
+  height: 196px;
+}
+.fotterListElementLeft {
+  margin-top: 17px;
+}
+.underLogoTextFooter {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 116%;
+  text-align: center;
+  color: #020202;
+}
+.logoLisitFooter {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.foterNumberPhone {
+  font-weight: 700;
+  font-size: 20px;
+  color: #64d370;
+  margin-top: 15px;
+}
+.lastTextFooter {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: right;
+  color: #020202;
+  width: 196px;
+  margin-bottom: 19px;
+}
+
+.boxLastText {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: right;
+  color: #020202;
+}
+.PrintString {
+  border: solid 1px red;
+}
+.chatBox {
+  width: 206px;
+  height: 205px;
+  position: fixed;
+  margin-left: 1663px;
+  top: 700px;
+}
+.charBTN {
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s;
+  position: relative;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  left: 126px;
+  top: 21px;
+  font-size: 20px;
+}
+.charBTN:hover,
+.telegramPos:hover,
+.whatsPos:hover {
+  background-color: gold;
+}
+.telegramPos {
+  position: relative;
+  left: 111px;
+  top: 15px;
+  background-color: white;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+.whatsPos {
+  position: relative;
+  left: 115px;
+  top: 27px;
+  background-color: white;
+  border-radius: 50%;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+.chatWindow {
+  width: 206px;
+  height: 67px;
+  background-color: white;
+  position: relative;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 134%;
+  border-radius: 11px;
+}
+.chatWindow::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+  position: relative;
+  left: 155px;
+  top: 75px;
+}
+.colorChat {
+  color: #64d370;
+}
+.chatTextPos {
+  padding-left: 16px;
+}
+.alern {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #020202;
+  stroke-width: 2px;
+  stroke: #020202;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 134%;
+  color: #f5faff;
+  position: relative;
+  top: -100px;
+  left: 170px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+}
+.alern p {
+  margin: 0 auto;
+}
+.imageInCirecle {
+  width: 794px;
+  height: 794px;
+  position: absolute;
+  z-index: -1;
+  left: 1115.44px;
+  top: 150.61px;
+  border: 50px solid white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
 }
