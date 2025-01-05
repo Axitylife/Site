@@ -1,6 +1,7 @@
 .photoMenu {
   margin-top: 120px;
   margin-bottom: 150px;
+  overflow: hidden;
 }
 .photoMenu h1 {
   margin: 0 auto;
