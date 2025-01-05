@@ -5,7 +5,6 @@
 .photoMenu h1 {
   margin: 0 auto;
   width: 200px;
-
   text-align: center;
 }
 .horizontalBoxPhoto {
@@ -15,14 +14,24 @@
 }
 .mainHB {
   position: relative;
-  overflow: hidden;
 }
 .photolist {
   display: flex;
   position: relative;
-  left: -150px;
+  left: -230px;
   z-index: -1;
   list-style-type: none;
+  height: 575px;
+}
+.photolistElement {
+  margin-right: 20px;
+  box-shadow: 0 0 20px 0 rgba(86, 86, 86, 0.5);
+  border-radius: 30px;
+  width: 380px;
+  height: 570px;
+}
+.photolistElement:last-child {
+  margin-right: 0px;
 }
 .sectionAskAndSend {
   width: 1180px;
@@ -59,6 +68,34 @@
   line-height: 134%;
   letter-spacing: 0.03em;
   color: #64d370;
+  position: relative;
+  display: flex;
+}
+.styleInputNumber {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  color: #f87676;
+  display: flex;
+}
+.greenCircle {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  background-color: #64d370;
+  border-radius: 50%;
+  left: 368px;
+  top: 43px;
+}
+.redCircle {
+  position: relative;
+  width: 14px;
+  height: 14px;
+  background-color: #f87676;
+  border-radius: 50%;
+  left: 230px;
+  top: 43px;
 }
 .sizeInputWindow {
   background: #dee6ee;
@@ -67,6 +104,7 @@
   height: 40px;
   border: none;
   margin-top: 5px;
+  padding-left: 20px;
 }
 .radioInputTestDrive {
   font-weight: 700;
@@ -76,7 +114,6 @@
   color: #020202;
 }
 input::placeholder {
-  padding-left: 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 134%;
@@ -156,6 +193,10 @@ input::placeholder {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: all linear 0.3s;
+}
+.sizeAsk:hover {
+  background-color: #64d370;
 }
 .paragrahAsk {
   margin-left: 20px;

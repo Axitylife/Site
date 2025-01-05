@@ -17,13 +17,12 @@ body {
   width: 1920px;
   margin: 0 auto;
   position: relative;
-  border: red solid 1px;
+  overflow: hidden;
 }
 .maxSizeContent {
   width: 1286px;
   margin: 0 auto;
   position: relative;
-  border: blue solid 1px;
 }
 .leftMenu-button {
   width: 70px;
@@ -265,7 +264,9 @@ body {
 }
 .fotterListElementLeft {
   margin-top: 17px;
+  transition: all 0.3s linear;
 }
+
 .underLogoTextFooter {
   font-weight: 400;
   font-size: 20px;
