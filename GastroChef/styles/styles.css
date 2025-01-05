@@ -231,32 +231,7 @@ figure {
 .verticalBoxRight {
   margin-left: 20px;
 }
-.photoMenu {
-  margin-top: 120px;
-  margin-bottom: 150px;
-}
-.photoMenu h1 {
-  margin: 0 auto;
-  width: 200px;
 
-  text-align: center;
-}
-.horizontalBoxPhoto {
-  margin-top: 60px;
-  width: 1915px;
-  width: 100%;
-}
-.photolist {
-  display: flex;
-  position: relative;
-  left: -150px;
-  z-index: -1;
-  list-style-type: none;
-}
-.mainHB {
-  position: relative;
-  overflow: hidden;
-}
 .textboxShowDataTop {
   padding-top: 30px;
   margin-left: 50px;
@@ -312,149 +287,10 @@ figure {
 .sizeCell-SecondColon {
   margin-right: 44px;
 }
-.callOrder {
-  font-weight: 700;
-  font-size: 30px;
-  text-align: center;
-}
-.descriptionOrderText {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 134%;
-  letter-spacing: 0.03em;
-  text-align: center;
-}
-.alwaysAsks {
-  font-weight: 700;
-  font-size: 25px;
-  text-align: center;
-}
-.sectionAskAndSend {
-  width: 1180px;
-  margin: 0 auto;
-}
-.leftOrder {
-  margin-top: 19px;
-  width: 423px;
-  height: 570px;
-}
-.AsksRight {
-  width: 680px;
-  height: 583px;
-}
-.sizeAsk {
-  border-radius: 190px;
-  width: 680px;
-  height: 40px;
-  margin-top: 20px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 134%;
-  letter-spacing: 0.03em;
-  box-shadow: 0 0 20px 0 rgba(86, 86, 86, 0.2);
-  background: #f5faff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.paragrahAsk {
-  margin-left: 20px;
-}
-.arrowRightAsk {
-  margin-right: 20px;
-}
-.sizeInputWindow {
-  background: #dee6ee;
-  border-radius: 190px;
-  width: 418px;
-  height: 40px;
-  border: none;
-  margin-top: 5px;
-}
-.styleInputNamet {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 134%;
-  letter-spacing: 0.03em;
-  color: #64d370;
-}
 .styleInputNumber {
   font-weight: 700;
   font-size: 18px;
   line-height: 134%;
   letter-spacing: 0.03em;
   color: #f87676;
-}
-input::placeholder {
-  padding-left: 20px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 134%;
-  letter-spacing: 0.03em;
-  color: #020202;
-}
-.radioInputTestDrive {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 134%;
-  letter-spacing: 0.03em;
-  color: #020202;
-}
-.setButtonTop {
-  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
-  border: 3px solid #64d370;
-  border-radius: 190px;
-  width: 298px;
-  height: 60px;
-  margin-left: 13px;
-  margin-bottom: 11px;
-}
-.inputFormBox {
-  margin-bottom: 30px;
-}
-.setButtonBot {
-  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
-  background: #64d370;
-  border-radius: 190px;
-  width: 324px;
-  height: 60px;
-  border: none;
-}
-.textButtonOrderPhoneTop {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 134%;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #64d370;
-}
-.textButtonOrderPhoneBot {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 134%;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #f5faff;
-}
-.orText {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 134%;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #020202;
-  margin-bottom: 10px;
-}
-.verticalBoxButtons {
-  max-width: 324px;
-  margin: 0 auto;
-}
-.nameForm,
-.numberForm,
-.testDriveForm {
-  margin-top: 30px;
-}
-.fontPresents {
-  margin-top: 15px;
 }

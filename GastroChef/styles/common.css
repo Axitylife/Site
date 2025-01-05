@@ -17,11 +17,13 @@ body {
   width: 1920px;
   margin: 0 auto;
   position: relative;
+  border: red solid 1px;
 }
 .maxSizeContent {
   width: 1286px;
   margin: 0 auto;
   position: relative;
+  border: blue solid 1px;
 }
 .leftMenu-button {
   width: 70px;
@@ -53,7 +55,17 @@ body {
   margin-left: 50px;
   height: 670px;
 }
-
+.imageInCirecle {
+  width: 694px;
+  height: 694px;
+  position: absolute;
+  z-index: -1;
+  left: 1115.44px;
+  top: 150.61px;
+  border: 50px solid white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+}
 .horizontalBox {
   display: flex;
   justify-content: space-between;
@@ -226,8 +238,7 @@ body {
 .footer {
   box-shadow: 0 0 30px 0 rgba(86, 86, 86, 0.25);
   background: #f5faff;
-  border-radius: 30px;
-  width: 2105px;
+
   height: 263px;
   margin: 150px auto 100px auto;
 }
@@ -246,10 +257,11 @@ body {
   color: #020202;
 }
 .maxFooterSize {
-  width: 1181px;
-  margin: 0 auto;
   padding-top: 23px;
   height: 196px;
+  max-width: 1181px;
+  width: 100%;
+  margin: 0 auto;
 }
 .fotterListElementLeft {
   margin-top: 17px;
@@ -385,15 +397,4 @@ body {
 }
 .alern p {
   margin: 0 auto;
-}
-.imageInCirecle {
-  width: 794px;
-  height: 794px;
-  position: absolute;
-  z-index: -1;
-  left: 1115.44px;
-  top: 150.61px;
-  border: 50px solid white;
-  border-radius: 50%;
-  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
 }
