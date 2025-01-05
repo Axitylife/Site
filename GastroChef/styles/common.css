@@ -113,9 +113,19 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  width: 116px;
+  width: 100%;
   margin: 0 auto;
   font-size: 14px;
+  height: 14px;
+  position: relative;
+  top: -20px;
+}
+.footerImg {
+  width: 422px;
+  height: 174px;
+}
+.boxHatLogo {
+  position: relative;
 }
 .navbar {
   width: 880px;
@@ -273,6 +283,8 @@ body {
   line-height: 116%;
   text-align: center;
   color: #020202;
+  position: relative;
+  top: -23px;
 }
 .logoLisitFooter {
   list-style-type: none;
