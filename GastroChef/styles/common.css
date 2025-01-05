@@ -18,11 +18,16 @@ body {
   margin: 0 auto;
   position: relative;
   overflow: hidden;
+  border: 1px solid red;
 }
 .maxSizeContent {
   width: 1286px;
   margin: 0 auto;
   position: relative;
+}
+.imageSizeInLeftMenu {
+  max-width: 75%;
+  max-height: 75%;
 }
 .leftMenu-button {
   width: 70px;
@@ -93,7 +98,6 @@ body {
   box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
   border-radius: 190px;
   height: 52px;
-
   position: relative;
 }
 
@@ -158,9 +162,11 @@ body {
 .nav-menu li:last-child {
   margin-right: 20px;
 }
+.link-nav-menu-element {
+  color: #020202;
+}
 .nav-menu a {
   text-decoration: none;
-  color: #020202;
 }
 
 .nav-menu a:hover {
@@ -410,4 +416,54 @@ body {
 }
 .alern p {
   margin: 0 auto;
+}
+.greenTextNavMenu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 134%;
+  color: #64d370;
+}
+@media (max-width: 1280px) {
+  .maxSizeWindow {
+    width: 1280px;
+  }
+}
+@media (max-width: 785px) {
+  .maxSizeWindow {
+    width: 768px;
+  }
+  .maxSizeContent {
+    width: 690px;
+  }
+  .conteinerLeftMenu {
+    max-width: 41px;
+    position: fixed;
+    top: 144px;
+    margin-left: 39px;
+    height: 300px;
+  }
+  .leftMenu-button {
+    width: 41px;
+    height: 41px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+    position: relative;
+    box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+    margin-top: 10px;
+    font-size: 10px;
+  }
+  .boxTopsize {
+    position: fixed;
+    top: -52px;
+    margin-left: 31px;
+    z-index: 10;
+    width: 698px;
+  }
 }

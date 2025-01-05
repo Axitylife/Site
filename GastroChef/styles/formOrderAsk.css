@@ -61,6 +61,7 @@
 .numberForm,
 .testDriveForm {
   margin-top: 30px;
+  position: relative;
 }
 .styleInputNamet {
   font-weight: 700;
@@ -85,8 +86,8 @@
   height: 14px;
   background-color: #64d370;
   border-radius: 50%;
-  left: 368px;
-  top: 43px;
+  left: 410px;
+  top: -28px;
 }
 .redCircle {
   position: relative;
@@ -94,8 +95,8 @@
   height: 14px;
   background-color: #f87676;
   border-radius: 50%;
-  left: 230px;
-  top: 43px;
+  left: 410px;
+  top: -28px;
 }
 .sizeInputWindow {
   background: #dee6ee;

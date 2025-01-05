@@ -78,4 +78,15 @@
   .circle7 {
     display: none;
   }
+  .circle1 {
+    background-color: #64d370;
+    box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+    border-radius: 50%;
+    width: 765px;
+    height: 765px;
+    position: absolute;
+    left: 395.97px;
+    top: -91px;
+    z-index: -1;
+  }
 }
