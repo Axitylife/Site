@@ -1,0 +1,94 @@
+.startPage {
+  width: 1px;
+}
+.firstSection {
+  margin-top: 380px;
+}
+.sizeBoxTitele {
+  width: 526px;
+  height: 464px;
+}
+.titleNameAboutUs {
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.03em;
+  color: #020202;
+  margin-bottom: 40px;
+}
+.greenText {
+  color: #64d370;
+}
+.descriptionText {
+  font-weight: 300;
+  font-size: 20px;
+  color: #020202;
+  margin-top: 20px;
+}
+
+.descriptionSubText {
+  font-weight: 700;
+  font-size: 20px;
+  color: #020202;
+  margin-top: 40px;
+}
+.sizeBoxTiteleRight {
+  width: 664px;
+  height: 586px;
+  position: relative;
+  margin-top: 442px;
+  margin-left: auto;
+}
+.paket {
+  position: absolute;
+  top: 1043px;
+  z-index: -1;
+}
+.titleTeam {
+  font-weight: 700;
+  font-size: 32px;
+  color: #020202;
+  margin-top: 70px;
+}
+.handAndPlate {
+  position: absolute;
+  left: 802px;
+  top: 2801px;
+  z-index: -1;
+}
+.sizeBoxTeam {
+  z-index: -1;
+  padding-top: 124px;
+}
+.sizeBoxLastSection {
+  width: 660px;
+  height: 533px;
+  margin-top: 220px;
+}
+.lastTitle {
+  font-weight: 700;
+  font-size: 32px;
+  color: #020202;
+  margin-top: 30px;
+}
+.linkSociales {
+  list-style-type: none;
+  display: flex;
+  margin-top: 15px;
+}
+.linkSociales li:first-child {
+  margin-left: 20px;
+  margin-right: 15px;
+}
+.linkSociales li:last-child {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+.photoMenus {
+  margin-top: 220px;
+  margin-bottom: 150px;
+}
+.photoMenus h1 {
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+}

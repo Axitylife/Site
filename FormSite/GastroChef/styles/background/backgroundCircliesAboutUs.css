@@ -1,0 +1,137 @@
+.circle1 {
+  background-color: #64d370;
+  /* TODO: вместо 0px нужно писать 0 просто */
+  box-shadow: 0 0 40px 0 rgba(34, 60, 80, 0.2);
+  border-radius: 50%;
+  width: 1293px;
+  height: 1293px;
+  position: absolute;
+  left: 974.78px;
+  top: -99.22px;
+  z-index: -1;
+}
+.circle2 {
+  border: 20px solid rgba(38, 240, 58, 0.1);
+  border-radius: 50%;
+  width: 219px;
+  height: 219px;
+  position: absolute;
+  z-index: -1;
+  left: 1012.94px;
+  top: 919.76px;
+}
+.circle3 {
+  border: 30px solid rgba(38, 240, 58, 0.1);
+  border-radius: 50%;
+  width: 426.66px;
+  height: 426.66px;
+  position: absolute;
+  z-index: -1;
+  left: 1630.96px;
+  top: 986.96px;
+}
+.circle4 {
+  background-color: rgba(38, 240, 58, 0.1);
+  border-radius: 50%;
+  width: 544px;
+  height: 544px;
+  position: absolute;
+  left: 161.97px;
+  top: 1025.97px;
+  z-index: -1;
+}
+.circle5 {
+  border: 30px solid rgba(38, 240, 58, 0.1);
+  border-radius: 50%;
+  width: 529px;
+  height: 529px;
+  position: absolute;
+  z-index: -1;
+  left: 1452.95px;
+  top: 1814.95px;
+}
+.circle6 {
+  border: 15px solid rgba(38, 240, 58, 0.1);
+  border-radius: 50%;
+  width: 184px;
+  height: 184px;
+  position: absolute;
+  z-index: -1;
+  left: 241.04px;
+  top: 2623.04px;
+}
+.circle7 {
+  background-color: rgba(38, 240, 58, 0.1);
+  border-radius: 50%;
+  width: 603px;
+  height: 603px;
+  position: absolute;
+  left: 1111.98px;
+  top: 2782.98px;
+  z-index: -1;
+}
+.circle8 {
+  border: 30px solid rgba(38, 240, 58, 0.1);
+  border-radius: 50%;
+  width: 519px;
+  height: 519px;
+  position: absolute;
+  z-index: -1;
+  left: -247.43px;
+  top: 3306.57px;
+}
+.circle9 {
+  border: 15px solid rgba(38, 240, 58, 0.1);
+  border-radius: 50%;
+  width: 184px;
+  height: 184px;
+  position: absolute;
+  z-index: -1;
+  left: 1221.04px;
+  top: 3650.04px;
+}
+.circle10 {
+  border: 15px solid rgba(38, 240, 58, 0.1);
+  border-radius: 50%;
+  width: 184px;
+  height: 184px;
+  position: absolute;
+  z-index: -1;
+  left: 439.04px;
+  top: 4205.04px;
+}
+.circle11 {
+  border: 30px solid rgba(38, 240, 58, 0.1);
+  border-radius: 50%;
+  width: 519px;
+  height: 519px;
+  position: absolute;
+  z-index: -1;
+  left: 1600.57px;
+  top: 3955.57px;
+}
+.circle12 {
+  background-color: rgba(38, 240, 58, 0.1);
+  border-radius: 50%;
+  width: 603px;
+  height: 603px;
+  position: absolute;
+  left: -246.02px;
+  top: 4969.98px;
+  z-index: -1;
+}
+@media (max-width: 785px) {
+  .circle2,
+  .circle3,
+  .circle4,
+  .circle5,
+  .circle6,
+  .circle7,
+  .circle8,
+  .circle9,
+  .circle10,
+  .circle11,
+  .circle12 {
+    display: none;
+  }
+}

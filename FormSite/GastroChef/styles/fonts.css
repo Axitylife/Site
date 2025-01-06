@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Comfortaa";
+  src: url(../fonts/Comfortaa.ttf);
+}
+
+.montserrat {
+  font-family: "Montserrat";
+}
+.Comfortaa {
+  font-family: "Comfortaa";
+}
