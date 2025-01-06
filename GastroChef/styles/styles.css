@@ -70,6 +70,7 @@ figure {
   margin-right: 20px;
   background: #64d370;
   color: white;
+  /* TODO: вместо 0px нужно писать 0 просто */
   box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
 }
 .btn:first-child:hover {
@@ -142,6 +143,7 @@ figure {
   border-radius: 30px;
   color: white;
   align-items: center;
+  /* TODO: вместо 0px нужно писать 0 просто */
   box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
 }
 
@@ -205,6 +207,7 @@ figure {
   margin-top: 50px;
 }
 .elementTable:first-child {
+  /* TODO: вместо 0px нужно писать 0 просто */
   margin-top: 0px;
 }
 .styleMealText {
@@ -250,6 +253,7 @@ figure {
   border: none;
   background-color: #64d370;
   color: white;
+  /* TODO: вместо 0px нужно писать 0 просто */
   box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
 }
 .descriptionTextShow {
