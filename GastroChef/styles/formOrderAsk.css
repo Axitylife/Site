@@ -33,7 +33,7 @@
 }
 .photolistElement:last-child {
   /* TODO: вместо 0px нужно писать 0 просто */
-  margin-right: 0px;
+  margin-right: 0;
 }
 .sectionAskAndSend {
   width: 1180px;

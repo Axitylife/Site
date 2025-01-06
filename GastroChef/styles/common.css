@@ -13,6 +13,8 @@ ul {
 body {
   /* TODO: Нужно обнулять значения мардижнов и паддингов у самого боди тоже, потому что у него есть предустановленные значения */
   background-color: #f5faff;
+  margin: 0;
+  padding: 0;
 }
 .maxSizeWindow {
   width: 1920px;
@@ -42,7 +44,7 @@ body {
   transition: background-color 0.3s;
   position: relative;
   /* TODO: вместо 0px нужно писать 0 просто */
-  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 0 40px 0 rgba(34, 60, 80, 0.2);
   margin-top: 50px;
   font-size: 20px;
 }
@@ -74,7 +76,7 @@ body {
   border: 50px solid white;
   border-radius: 50%;
   /* TODO: вместо 0px нужно писать 0 просто */
-  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 0 40px 0 rgba(34, 60, 80, 0.2);
 }
 .horizontalBox {
   display: flex;
@@ -92,7 +94,7 @@ body {
   width: 880px;
   background-color: white;
   /* TODO: вместо 0px нужно писать 0 просто */
-  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 0 40px 0 rgba(34, 60, 80, 0.2);
   border-radius: 190px;
   height: 52px;
   left: -220px;
@@ -106,7 +108,7 @@ body {
   width: 264px;
   height: 264px;
   /* TODO: вместо 0px нужно писать 0 просто */
-  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 0 40px 0 rgba(34, 60, 80, 0.2);
   position: relative;
   display: flex;
   justify-content: center;
@@ -178,7 +180,7 @@ body {
   height: 52px;
   background-color: white;
   /* TODO: вместо 0px нужно писать 0 просто */
-  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 0 40px 0 rgba(34, 60, 80, 0.2);
 }
 
 .phone-number {
@@ -218,7 +220,7 @@ body {
   left: 320px;
   top: 30px;
   /* TODO: вместо 0px нужно писать 0 просто */
-  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 0 40px 0 rgba(34, 60, 80, 0.2);
   font-size: 15px;
   letter-spacing: 0.03em;
   font-weight: 500;
@@ -340,7 +342,7 @@ body {
   transition: background-color 0.3s;
   position: relative;
   /* TODO: вместо 0px нужно писать 0 просто */
-  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 0 40px 0 rgba(34, 60, 80, 0.2);
   left: 126px;
   top: 21px;
   font-size: 20px;
@@ -456,7 +458,7 @@ body {
     transition: background-color 0.3s;
     position: relative;
     /* TODO: вместо 0px нужно писать 0 просто */
-    box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0 0 40 0 rgba(34, 60, 80, 0.2);
     margin-top: 10px;
     font-size: 10px;
   }
@@ -478,7 +480,7 @@ body {
     width: 150px;
     height: 150px;
     /* TODO: вместо 0px нужно писать 0 просто */
-    box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0 0 40px 0 rgba(34, 60, 80, 0.2);
     position: relative;
     display: flex;
     justify-content: center;
@@ -489,7 +491,7 @@ body {
     width: 507px;
     background-color: white;
     /* TODO: вместо 0px нужно писать 0 просто */
-    box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0 0 40 0 rgba(34, 60, 80, 0.2);
     border-radius: 190px;
     height: 31px;
     position: relative;
@@ -528,6 +530,6 @@ body {
     border: 20px solid white;
     border-radius: 50%;
     /* TODO: вместо 0px нужно писать 0 просто */
-    box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0 0 40px 0 rgba(34, 60, 80, 0.2);
   }
 }

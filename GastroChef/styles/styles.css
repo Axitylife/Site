@@ -71,7 +71,7 @@ figure {
   background: #64d370;
   color: white;
   /* TODO: вместо 0px нужно писать 0 просто */
-  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 0 40px 0 rgba(34, 60, 80, 0.2);
 }
 .btn:first-child:hover {
   background: aquamarine;
@@ -144,7 +144,7 @@ figure {
   color: white;
   align-items: center;
   /* TODO: вместо 0px нужно писать 0 просто */
-  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 0 40px 0 rgba(34, 60, 80, 0.2);
 }
 
 .table {
@@ -208,7 +208,7 @@ figure {
 }
 .elementTable:first-child {
   /* TODO: вместо 0px нужно писать 0 просто */
-  margin-top: 0px;
+  margin-top: 0;
 }
 .styleMealText {
   font-weight: 400;
@@ -254,7 +254,7 @@ figure {
   background-color: #64d370;
   color: white;
   /* TODO: вместо 0px нужно писать 0 просто */
-  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 0 40px 0 rgba(34, 60, 80, 0.2);
 }
 .descriptionTextShow {
   margin-top: 20px;

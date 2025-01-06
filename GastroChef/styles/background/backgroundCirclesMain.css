@@ -1,7 +1,7 @@
 .circle1 {
   background-color: #64d370;
   /* TODO: вместо 0px нужно писать 0 просто */
-  box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0 0 40 0 rgba(34, 60, 80, 0.2);
   border-radius: 50%;
   width: 1293px;
   height: 1293px;
@@ -82,7 +82,7 @@
   .circle1 {
     background-color: #64d370;
     /* TODO: вместо 0px нужно писать 0 просто */
-    box-shadow: 0px 0px 40px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0 0 40px 0 rgba(34, 60, 80, 0.2);
     border-radius: 50%;
     width: 765px;
     height: 765px;
