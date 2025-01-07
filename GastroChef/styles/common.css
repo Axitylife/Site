@@ -30,28 +30,30 @@ li {
   margin: 0;
 }
 .max-size-content {
-  width: 1180px;
+  max-width: 1180px;
 }
 
 .overflow-size-content {
-  width: 1920px;
+  max-width: 1920px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 @media (max-width: 768px) {
   .overflow-size-content {
     width: 768px;
-    overflow: hidden;
   }
   .max-size-content {
     width: 691px;
+    margin: 0 auto;
   }
 }
 
 @media (max-width: 325px) {
   .overflow-size-content {
     width: 320px;
-    overflow: hidden;
   }
   .max-size-content {
     width: 276px;
+    margin: 0 auto;
   }
 }

@@ -1,0 +1,570 @@
+.section-choose-programm-meal {
+  margin: 0 auto;
+}
+
+.selecter-button-programm-meal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-meal-programm {
+  font-weight: 700;
+  font-family: "fontC";
+  font-size: 25px;
+  text-align: center;
+  color: #f5faff;
+  border-radius: 190px;
+  width: 580px;
+  height: 62px;
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+  background: #64d370;
+  border: none;
+  transition: background linear 0.3s;
+}
+
+.button-special-programm {
+  font-weight: 400;
+  font-family: "fontC";
+  font-size: 25px;
+  text-align: center;
+  border-radius: 190px;
+  width: 580px;
+  height: 62px;
+  background: #dee6ee;
+  border: none;
+  transition: background linear 0.3s;
+}
+
+.button-meal-programm:hover {
+  background: green;
+  cursor: pointer;
+}
+
+.button-special-programm:hover {
+  background: grey;
+  cursor: pointer;
+}
+
+.size-box-variable-proggram-meal {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.header-variant-meal {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "fontC";
+}
+
+.show-ccal {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "fontM";
+  margin-top: 7px;
+}
+
+.size-box-variant {
+  width: 120px;
+  height: 44px;
+}
+
+.size-box-variant:hover {
+  color: #64d370;
+  cursor: pointer;
+}
+
+.selected-variant-programm-header {
+  font-weight: 700;
+  font-size: 20px;
+  color: #00ba2d;
+}
+.selected-variant-programm-show-ccal {
+  font-weight: 500;
+  font-size: 14px;
+  color: #64d370;
+}
+
+.box-card-show-variable-programm {
+  border-radius: 30px;
+  width: 280px;
+  height: 184px;
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+  background: #64d370;
+  color: #f5faff;
+  padding: 30px 50px 39px 50px;
+}
+
+.horizontal-box-header-title-choosen-variant {
+  display: flex;
+}
+
+.header-choosen-variant-meal {
+  font-family: "fontC";
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.title-choosen-variant-meal {
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #f5faff;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 20px;
+  font-family: "fontM";
+}
+
+.descrition-text-choosen-variant-meal {
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "fontM";
+  margin-top: 20px;
+}
+
+.show-all-choosen-varian {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.box-show-price {
+  width: 344px;
+  height: 183px;
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "fontM";
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 22px;
+}
+
+.colomn-show-days-element {
+  width: 122px;
+  height: 18px;
+  margin-top: 15px;
+}
+.colomn-show-no-discount-element {
+  width: 56px;
+  height: 18px;
+  text-decoration: line-through;
+  margin-top: 15px;
+}
+.without-text-decoration {
+  text-decoration: none;
+}
+.colomn-show-discount-element {
+  width: 61px;
+  height: 18px;
+  margin-top: 15px;
+}
+
+.empty-cell {
+  width: 60px;
+  height: 18px;
+}
+.colomn-show-discount-element:first-child,
+.colomn-show-no-discount-element:first-child,
+.colomn-show-days-element:first-child {
+  margin-top: 0;
+}
+
+.colomn-show-no-discount {
+  text-align: center;
+}
+
+.button-under-show-prices {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #f5faff;
+  font-family: "fontC";
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+  background: #64d370;
+  border-radius: 190px;
+  width: 280px;
+  height: 60px;
+  transition: background linear 0.3s;
+  border: none;
+  margin-left: 52px;
+  margin-top: 50px;
+}
+.button-under-show-prices:hover {
+  background: green;
+  cursor: pointer;
+}
+
+.horizontal-box-days-list {
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "fontC";
+}
+.border-horizontal-box-days {
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+  background: #f5faff;
+  border-radius: 30px;
+  width: 780px;
+  height: 55px;
+  border: none;
+}
+.element-day {
+  margin-top: 16px;
+
+  transition: color linear 0.3s;
+}
+
+.element-day:hover {
+  cursor: pointer;
+  color: #00ba2d;
+}
+
+.size-box-menu {
+  border-radius: 30px;
+  width: 674px;
+  height: 455px;
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+  background: #f5faff;
+  margin-top: 20px;
+  font-family: "fontM";
+  padding: 30px 56px 40px 50px;
+}
+
+.text-during-meals-in-menu {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.text-time-meals-in-menu {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.text-food-in-menu {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.text-portion-in-menu {
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.horizontal-info-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.horizontal-info-menu:first-child {
+  margin-top: 0;
+}
+
+.box-portion-in-menu {
+  width: 55px;
+  height: 44px;
+}
+
+.box-food-in-menu {
+  width: 425px;
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-info-in-menu {
+  width: 119px;
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .button-meal-programm {
+    width: 339px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .button-special-programm {
+    width: 339px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .header-variant-meal {
+    font-size: 18px;
+    font-size: 10px;
+  }
+
+  .show-ccal {
+    font-size: 8px;
+  }
+
+  .box-card-show-variable-programm {
+    width: 163px;
+    height: 105px;
+    padding: 18px 29px 22px 30px;
+  }
+
+  .header-choosen-variant-meal {
+    font-size: 14px;
+  }
+
+  .title-choosen-variant-meal {
+    font-size: 10px;
+  }
+
+  .descrition-text-choosen-variant-meal {
+    font-size: 10px;
+    margin-top: 11px;
+  }
+
+  .colomn-show-days-element {
+    width: 71px;
+    height: 11px;
+    font-size: 8px;
+  }
+
+  .colomn-show-no-discount-element {
+    width: 33px;
+    height: 11px;
+    font-size: 8px;
+  }
+
+  .colomn-show-discount-element {
+    width: 35px;
+    height: 11px;
+    font-size: 8px;
+  }
+
+  .box-show-price {
+    width: 200px;
+    height: 107px;
+    margin-left: 12px;
+    margin-top: 30px;
+  }
+
+  .button-under-show-prices {
+    width: 163px;
+    height: 35px;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 29px;
+  }
+
+  .border-horizontal-box-days {
+    width: 456px;
+    height: 33px;
+  }
+
+  .horizontal-box-days-list {
+    font-size: 10px;
+  }
+
+  .element-day {
+    margin-top: 12px;
+  }
+
+  .size-box-menu {
+    width: 396px;
+    height: 262px;
+    margin-top: 11px;
+    padding: 17px 33px 27px 30px;
+  }
+  .text-during-meals-in-menu {
+    font-size: 10px;
+  }
+
+  .text-time-meals-in-menu {
+    font-size: 10px;
+  }
+
+  .text-food-in-menu {
+    font-size: 10px;
+  }
+
+  .text-portion-in-menu {
+    font-size: 10px;
+  }
+
+  .horizontal-info-menu {
+    margin-top: 29px;
+  }
+
+  .horizontal-info-menu:first-child {
+    margin-top: 0;
+  }
+  .box-info-in-menu {
+    width: 69px;
+    height: 30px;
+  }
+  .box-food-in-menu {
+    width: 245px;
+    height: 25px;
+  }
+  .box-portion-in-menu {
+    width: 31px;
+    height: 25px;
+  }
+
+  .colomn-show-days-element,
+  .colomn-show-no-discount-element,
+  .colomn-show-discount-element {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 325px) {
+  .selecter-button-programm-meal {
+    flex-direction: column;
+  }
+  .button-meal-programm,
+  .button-special-programm {
+    width: 280px;
+    height: 36px;
+    font-size: 14px;
+  }
+  .button-special-programm {
+    margin-top: 15px;
+  }
+  .size-box-variable-proggram-meal {
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 270px;
+    height: 120px;
+  }
+  .size-box-variant {
+    width: 80px;
+    height: 28px;
+  }
+  .header-variant-meal {
+    font-size: 12px;
+  }
+  .show-ccal {
+    font-size: 10px;
+    margin-top: 3px;
+  }
+  .box-card-show-variable-programm {
+    width: 220px;
+    height: 87px;
+    padding: 18px 30px 25px 30px;
+    margin-top: 39px;
+  }
+  .show-all-choosen-varian {
+    flex-wrap: wrap;
+  }
+  .header-choosen-variant-meal {
+    font-size: 14px;
+  }
+  .title-choosen-variant-meal {
+    font-size: 10px;
+  }
+  .box-show-price {
+    margin-top: 20px;
+    width: 236px;
+    height: 122px;
+    margin-left: 22px;
+  }
+
+  .colomn-show-discount-element {
+    font-size: 10px;
+    width: 41px;
+  }
+  .colomn-show-days-element {
+    font-size: 10px;
+    width: 81px;
+  }
+  .colomn-show-no-discount-element {
+    font-size: 10px;
+    width: 37px;
+  }
+  .button-under-show-prices {
+    margin-left: 59px;
+    width: 163px;
+    height: 35px;
+    font-size: 14px;
+    margin-top: 25px;
+  }
+  .colomn-show-no-discount {
+    margin-left: 22px;
+    text-align: center;
+  }
+  .size-box-days-menu {
+    margin-top: 40px;
+  }
+  .border-horizontal-box-days {
+    width: 276px;
+    height: 45px;
+  }
+  .element-day {
+    margin-top: 16px;
+  }
+  .horizontal-box-days-list {
+    font-size: 14px;
+  }
+  .selected-text-color-green {
+    font-size: 18px;
+    margin-top: 14px;
+  }
+  .size-box-menu {
+    width: 238px;
+    height: 370px;
+    padding: 20px 28px 25px 20px;
+  }
+  .text-during-meals-in-menu {
+    font-size: 14px;
+    display: flex;
+    height: auto;
+    width: auto;
+  }
+  .text-time-meals-in-menu {
+    font-size: 12px;
+  }
+  .box-portion-in-menu {
+    display: none;
+  }
+  .box-food-in-menu {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  .box-info-in-menu {
+    width: auto;
+  }
+  .text-time-meals-in-menu {
+    width: 75px;
+    margin-left: 20px;
+    margin-top: 2px;
+  }
+
+  .box-info-in-menu {
+    flex-wrap: wrap;
+    align-content: flex-start;
+    height: 17px;
+  }
+  .horizontal-info-menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  .horizontal-info-menu:first-child {
+    margin-top: 0;
+  }
+  .text-food-in-menu {
+    font-size: 12px;
+    height: auto;
+    display: flex;
+  }
+}
