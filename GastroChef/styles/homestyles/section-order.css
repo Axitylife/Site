@@ -1,0 +1,307 @@
+.section-order {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box-order {
+  max-width: 423px;
+  height: 570px;
+}
+
+.title-order {
+  font-family: "fontC";
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: #020202;
+}
+
+.paragraph-title {
+  font-family: "fontM";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #020202;
+}
+
+.text-style-order-name {
+  font-family: "fontC";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  color: #64d370;
+  margin-left: 20px;
+}
+
+.text-style-order-phone {
+  font-family: "fontC";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  color: #f87676;
+  margin-left: 20px;
+}
+
+.input-window-styles {
+  border-radius: 190px;
+  width: 400px;
+  height: 40px;
+  background: #dee6ee;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  font-family: "fontM";
+  padding-left: 20px;
+  margin-top: 5px;
+}
+
+.phone-form,
+.name-form {
+  margin-top: 30px;
+  position: relative;
+}
+
+.selected-text-color-green {
+  color: #64d370;
+  cursor: pointer;
+}
+
+.radio-form-test-draive {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  height: 21px;
+}
+
+.radio-form-cooperation {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  height: 26px;
+}
+
+.button-order-to-phone {
+  font-weight: 700;
+  font-family: "fontC";
+  font-size: 22px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #64d370;
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+  border: 3px solid #64d370;
+  border-radius: 190px;
+  width: 298px;
+  height: 60px;
+  margin-top: 30px;
+  margin-bottom: 11px;
+  margin-left: 62px;
+}
+
+.or-text-between-buttons {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #020202;
+  font-family: "fontC";
+}
+
+.button-order-to-online {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "fontC";
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #f5faff;
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+  background: #64d370;
+  border-radius: 190px;
+  width: 324px;
+  height: 60px;
+  border: none;
+  margin-top: 10px;
+  margin-left: 49px;
+}
+
+.box-ask {
+  max-width: 680px;
+  max-height: 583px;
+}
+
+.title-ask {
+  max-width: 394px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  color: #020202;
+  font-family: "fontC";
+  margin: 0 auto;
+}
+
+.size-horizontal-border-ask {
+  border-radius: 190px;
+  width: 680px;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 20px 0 rgba(86, 86, 86, 0.2);
+  background: #f5faff;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.paragraph-text-ask {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  font-family: "fontM";
+  color: #020202;
+  margin-left: 20px;
+}
+
+.circle-green-position {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  background-color: #64d370;
+  border-radius: 50%;
+  left: 388px;
+  top: 56px;
+}
+.circle-red-position {
+  width: 14px;
+  height: 14px;
+  position: relative;
+  background-color: #f87676;
+  border-radius: 50%;
+  left: 388px;
+  top: 56px;
+}
+
+.radio-selected-mode-choose {
+  font-family: "fontC";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+}
+.simple-arrow-right-in-ask-article {
+  margin-right: 20px;
+}
+@media (max-width: 768px) {
+  .max-size-content {
+    width: 691px;
+  }
+
+  .box-ask {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+
+  .box-order {
+    width: 423px;
+    height: 571px;
+    margin: 0 auto;
+  }
+
+  .title-order {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 325px) {
+  .max-size-content {
+    position: relative;
+    width: 276px;
+  }
+
+  .size-horizontal-border-ask {
+    max-width: 280px;
+    height: 40px;
+  }
+
+  .paragraph-text-ask {
+    font-size: 10px;
+    width: 215px;
+  }
+
+  .title-ask {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .button-order-to-online {
+    max-width: 280px;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .button-order-to-phone {
+    max-width: 280px;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+
+  .or-text-between-buttons {
+    max-width: 280px;
+  }
+
+  .radio-form-cooperation {
+    max-width: 236px;
+    height: 41px;
+    margin-bottom: 30px;
+  }
+
+  .radio-form-test-draive {
+    max-width: 236px;
+    height: 41px;
+    margin-bottom: 20px;
+  }
+
+  .radio-selected-mode-choose {
+    width: 190px;
+    height: 38px;
+    font-size: 14px;
+  }
+
+  .input-window-styles {
+    max-width: 260px;
+  }
+
+  .paragraph-title {
+    font-size: 12px;
+    width: 298px;
+    height: 42px;
+    left: -15px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .title-order {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .circle-green-position {
+    left: 246px;
+  }
+
+  .circle-red-position {
+    left: 246px;
+  }
+}
