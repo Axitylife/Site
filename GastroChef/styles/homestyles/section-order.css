@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 150px;
 }
 
 .box-order {
@@ -203,10 +204,6 @@
   margin-right: 20px;
 }
 @media (max-width: 768px) {
-  .max-size-content {
-    width: 691px;
-  }
-
   .box-ask {
     max-width: 100%;
     margin: 0 auto;
@@ -222,19 +219,15 @@
   .title-order {
     font-size: 25px;
   }
+  .section-order {
+    margin-top: 100px;
+  }
+  .size-horizontal-border-ask {
+    max-width: 690px;
+  }
 }
 
 @media (max-width: 325px) {
-  .max-size-content {
-    position: relative;
-    width: 276px;
-  }
-
-  .size-horizontal-border-ask {
-    max-width: 280px;
-    height: 40px;
-  }
-
   .paragraph-text-ask {
     font-size: 10px;
     width: 215px;
@@ -303,5 +296,9 @@
 
   .circle-red-position {
     left: 246px;
+  }
+  .size-horizontal-border-ask {
+    max-width: 280px;
+    height: 40px;
   }
 }
