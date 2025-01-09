@@ -40,10 +40,6 @@ li {
   margin: 0 auto;
 }
 
-.vertiacl-box-nav-bar-left {
-  display: flex;
-}
-
 .size-button-left-menu {
   border-radius: 100%;
   background: #f5faff;
@@ -66,10 +62,15 @@ li {
   gap: 50px;
   display: flex;
   flex-direction: column;
-  position: fixed;
-  margin-left: 10px;
+  margin: 0 auto;
+  border: 1px solid red;
+  margin: 0 auto;
 }
 
+.position-left-menu {
+  margin: 0 auto;
+  position: fixed;
+}
 /**/
 .position-header-menu {
   margin: 0 auto;
@@ -95,6 +96,12 @@ li {
   line-height: 134%;
   color: #020202;
   margin-right: 40px;
+  transition: color linear 0.3s;
+}
+
+.link-nav-menu-element:hover {
+  color: #64d370;
+  cursor: pointer;
 }
 
 .green-text-nav {
@@ -102,6 +109,9 @@ li {
   font-size: 14px;
   line-height: 134%;
   color: #64d370;
+}
+.green-text-nav:hover {
+  color: green;
 }
 
 .size-box-selector-language {
@@ -147,6 +157,11 @@ li {
   font-weight: 700;
   font-size: 20px;
   color: #64d370;
+  transition: color linear 0.3s;
+}
+
+.phote-styles:hover {
+  color: green;
 }
 
 .logo-header {
@@ -161,6 +176,7 @@ li {
   position: relative;
   box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
   background: #f5faff;
+  z-index: 1;
 }
 
 .position-nav-menu {
@@ -168,7 +184,6 @@ li {
   display: flex;
   justify-content: space-between;
   top: -150px;
-  z-index: -1;
   left: 50px;
 }
 
@@ -287,6 +302,11 @@ li {
   top: -10px;
   position: relative;
 }
+.oversize-content-dont-hidden {
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
 @media (max-width: 768px) {
   .overflow-size-content {
     width: 768px;
@@ -297,6 +317,11 @@ li {
   }
 }
 
+@media (max-width: 435px) {
+  .position-left-menu {
+    display: none;
+  }
+}
 @media (max-width: 325px) {
   .overflow-size-content {
     width: 320px;

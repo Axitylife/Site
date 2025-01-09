@@ -12,6 +12,11 @@
   text-align: center;
   color: #f5faff;
   font-family: "fontC";
+  transition: all linear 0.3s;
+}
+.order-button-begin-page:hover {
+  background-color: green;
+  color: #020202;
 }
 .title-text-test-day-decription-box {
   font-weight: 400;
@@ -60,7 +65,6 @@
 }
 
 .main-section-in-page {
-  border: 1px solid;
   margin: 0 auto;
 }
 
