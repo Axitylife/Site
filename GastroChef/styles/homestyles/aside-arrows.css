@@ -1,0 +1,27 @@
+.arrows-icons-horizontal {
+  max-width: 156px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 14px;
+}
+
+.rotate-arrow-in-arrows-icon {
+  transform: rotate(180deg);
+}
+
+.selected-circle-size {
+  width: 14px;
+  height: 14px;
+}
+
+.circle-default-size {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid #00ba2d;
+}
+
+.arrows-icons-horizontal {
+  margin-top: 270px;
+}

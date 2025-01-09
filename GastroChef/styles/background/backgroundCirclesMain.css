@@ -70,6 +70,13 @@
   left: -352.43px;
   top: 3376.57px;
 }
+.image-background {
+  width: 701px;
+  height: 701px;
+  position: absolute;
+  top: 292px;
+  left: 1161px;
+}
 @media (max-width: 785px) {
   .circle2,
   .circle3,

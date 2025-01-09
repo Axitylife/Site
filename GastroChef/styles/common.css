@@ -9,6 +9,7 @@
 body {
   padding: 0;
   margin: 0;
+  background: #f5faff;
 }
 p,
 h1,
@@ -37,6 +38,254 @@ li {
   max-width: 1920px;
   overflow: hidden;
   margin: 0 auto;
+}
+
+.vertiacl-box-nav-bar-left {
+  display: flex;
+}
+
+.size-button-left-menu {
+  border-radius: 100%;
+  background: #f5faff;
+  box-shadow: 0 0 30px 0 rgba(86, 86, 86, 0.25);
+  width: 70px;
+  height: 70px;
+  border: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 138%;
+  text-align: center;
+  font-family: "fontC";
+  transition: background linear 0.3s;
+}
+
+.size-button-left-menu:hover {
+  background: #64d370;
+}
+.vertiacl-box-nav-bar-left {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-left: 10px;
+}
+
+/**/
+.position-header-menu {
+  margin: 0 auto;
+}
+
+.nav-menu-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: "fontC";
+  height: 52px;
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+  background: #f5faff;
+  border-radius: 190px;
+}
+.size-box-nav-menu {
+  width: 880px;
+}
+
+.link-nav-menu-element {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 134%;
+  color: #020202;
+  margin-right: 40px;
+}
+
+.green-text-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 134%;
+  color: #64d370;
+}
+
+.size-box-selector-language {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  left: 290px;
+  max-width: 135px;
+  top: -130px;
+}
+.button-language {
+  font-family: "fontM";
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  background-color: #f5faff;
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+}
+
+.button-language-selected {
+  background-color: #64d370;
+  color: #f4f9fe;
+}
+
+.contact-info {
+  border-radius: 190px;
+  width: 280px;
+  height: 52px;
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+  background: #f5faff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.phote-styles {
+  font-family: "fontM";
+  font-weight: 700;
+  font-size: 20px;
+  color: #64d370;
+}
+
+.logo-header {
+  width: 264px;
+  height: 264px;
+  border-radius: 50%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+  background: #f5faff;
+}
+
+.position-nav-menu {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: -150px;
+  z-index: -1;
+  left: 50px;
+}
+
+.size-box-header-menu {
+  position: relative;
+  align-items: center;
+  top: -52px;
+  left: -52px;
+}
+
+.footer-site {
+  box-shadow: 0 0 30px 0 rgba(86, 86, 86, 0.25);
+  background: #f5faff;
+  margin-top: 150px;
+  margin-bottom: 100px;
+  height: 263px;
+}
+
+.footer-horizontal-box-content {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  font-family: "fontC";
+}
+
+.link-list-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  margin-top: 41px;
+}
+
+.link-element-footer {
+  font-weight: 700;
+  font-size: 20px;
+  color: #020202;
+  transition: color 0.3s linear;
+}
+.link-element-footer:hover {
+  color: #64d370;
+  cursor: pointer;
+}
+
+.logo-link-list {
+  display: flex;
+  gap: 15px;
+
+  justify-content: flex-end;
+  margin-top: 21px;
+  margin-bottom: 15px;
+}
+
+.logo-footer-colomn {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: right;
+  color: #020202;
+  margin-top: 41px;
+}
+
+.title-text-faq {
+  font-weight: 700;
+  font-size: 20px;
+  text-align: right;
+  color: #020202;
+  text-transform: uppercase;
+  margin-top: 19px;
+}
+
+.link-phone-number {
+  font-weight: 700;
+  font-size: 20px;
+  color: #64d370;
+  font-family: "fontM";
+  transition: color linear 0.3s;
+}
+.link-phone-number:hover {
+  cursor: pointer;
+  color: green;
+}
+.text-box-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-logo-fuuter {
+  max-width: 422px;
+  height: 179px;
+}
+.size-box-footer-logo-figure {
+  margin: 0;
+  margin-top: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.title-text-under-logo-footer {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 116%;
+  text-align: center;
+  color: #020202;
+  top: -23px;
+  position: relative;
+}
+
+.title-text-under-logo-header {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 116%;
+  text-align: center;
+  color: #020202;
+  font-family: "fontC";
+  top: -10px;
+  position: relative;
 }
 @media (max-width: 768px) {
   .overflow-size-content {

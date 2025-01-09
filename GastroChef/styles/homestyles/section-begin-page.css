@@ -1,0 +1,75 @@
+.order-button-begin-page {
+  box-shadow: 0 0 40px 0 rgba(86, 86, 86, 0.3);
+  background: #64d370;
+  border-radius: 190px;
+  width: 280px;
+  height: 60px;
+  border: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 134%;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #f5faff;
+  font-family: "fontC";
+}
+.title-text-test-day-decription-box {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 134%;
+  color: #020202;
+  font-family: "fontM";
+}
+
+.title-text-price-decription-box {
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 100%;
+  color: #64d370;
+  font-family: "fontM";
+}
+
+.title-text-in-page {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 134%;
+  color: #020202;
+  font-family: "fontM";
+  margin-top: 15px;
+}
+
+.green-text-title-focus {
+  font-weight: 500;
+  color: #64d370;
+}
+
+.header-in-page-info {
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 0.03em;
+  color: #020202;
+  font-family: "fontC";
+}
+
+.green-text-header-focus {
+  color: #64d370;
+}
+
+.size-box-begin-info {
+  margin-right: 0;
+}
+
+.main-section-in-page {
+  border: 1px solid;
+  margin: 0 auto;
+}
+
+.size-box-order-in-page {
+  margin-top: 40px;
+  display: flex;
+}
+.size-box-decription {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}

@@ -1,0 +1,23 @@
+.box-content-our-advantages {
+  background: rgba(245, 250, 255, 0.8);
+  border-radius: 30px;
+  width: 1286px;
+  height: 220px;
+  margin: 0 auto;
+  margin-top: 137px;
+}
+.horizontal-box-our-advantages {
+  display: flex;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "fontM";
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 130%;
+  gap: 27px;
+  max-width: 1166px;
+}
+.size-box-info-cards {
+  margin: 0;
+  margin-top: 27px;
+}
