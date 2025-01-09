@@ -1,10 +1,12 @@
 .box-content-our-advantages {
   background: rgba(245, 250, 255, 0.8);
   border-radius: 30px;
-  width: 1286px;
-  height: 220px;
+  max-width: 1286px;
+  height: auto;
   margin: 0 auto;
   margin-top: 137px;
+  padding-bottom: 25px;
+  border: 1px solid;
 }
 .horizontal-box-our-advantages {
   display: flex;
@@ -20,4 +22,20 @@
 .size-box-info-cards {
   margin: 0;
   margin-top: 27px;
+}
+.image-info-card {
+  max-width: 100%;
+}
+@media (max-width: 768px) {
+  .horizontal-box-our-advantages {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 450px) {
+  .horizontal-box-our-advantages {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3, 1fr);
+  }
 }

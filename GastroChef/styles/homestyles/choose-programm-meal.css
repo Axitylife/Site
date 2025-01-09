@@ -289,6 +289,12 @@
   flex-direction: column;
 }
 
+.size-box-days-menu {
+  max-width: 780px;
+}
+.vertiacl-box-chosen-varian-price-order {
+  max-width: 380px;
+}
 @media (max-width: 768px) {
   .button-meal-programm {
     width: 339px;
