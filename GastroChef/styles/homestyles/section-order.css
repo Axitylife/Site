@@ -1,9 +1,8 @@
 .section-order {
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
   margin-top: 150px;
+  gap: 81px;
 }
 
 .box-order {
@@ -51,7 +50,7 @@
 
 .input-window-styles {
   border-radius: 190px;
-  width: 400px;
+  width: 100%;
   height: 40px;
   background: #dee6ee;
   border: none;
@@ -60,13 +59,15 @@
   line-height: 134%;
   letter-spacing: 0.03em;
   font-family: "fontM";
-  padding-left: 20px;
   margin-top: 5px;
 }
 
 .phone-form,
 .name-form {
+  display: flex;
+  flex-direction: column;
   margin-top: 30px;
+  width: 100%;
   position: relative;
 }
 
@@ -137,8 +138,8 @@
 }
 
 .box-ask {
-  max-width: 680px;
-  max-height: 583px;
+  width: 100%;
+  height: auto;
 }
 
 .title-ask {
@@ -154,7 +155,7 @@
 
 .size-horizontal-border-ask {
   border-radius: 190px;
-  width: 680px;
+  max-width: 680px;
   height: 40px;
   display: flex;
   justify-content: space-between;
@@ -182,6 +183,7 @@
   border-radius: 50%;
   left: 388px;
   top: 56px;
+  display: none;
 }
 .circle-red-position {
   width: 14px;
@@ -191,6 +193,7 @@
   border-radius: 50%;
   left: 388px;
   top: 56px;
+  display: none;
 }
 
 .radio-selected-mode-choose {
@@ -203,19 +206,25 @@
 .simple-arrow-right-in-ask-article {
   margin-right: 20px;
 }
-@media (max-width: 768px) {
-  .box-ask {
-    max-width: 100%;
-    margin: 0 auto;
-    margin-top: 100px;
-  }
-
+@media (max-width: 1280px) {
   .box-order {
-    width: 423px;
-    height: 571px;
+    margin: 0 auto;
+    height: auto;
+  }
+  .box-ask {
     margin: 0 auto;
   }
-
+  .size-horizontal-border-ask {
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1100px) {
+  .section-order {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
   .title-order {
     font-size: 25px;
   }
@@ -227,10 +236,9 @@
   }
 }
 
-@media (max-width: 325px) {
+@media (max-width: 550px) {
   .paragraph-text-ask {
     font-size: 10px;
-    width: 215px;
   }
 
   .title-ask {
@@ -278,10 +286,10 @@
 
   .paragraph-title {
     font-size: 12px;
-    width: 298px;
-    height: 42px;
-    left: -15px;
+    max-width: 298px;
+    height: auto;
     position: relative;
+    margin: 0 auto;
     margin-bottom: 20px;
   }
 
@@ -298,7 +306,6 @@
     left: 246px;
   }
   .size-horizontal-border-ask {
-    max-width: 280px;
     height: 40px;
   }
 }
